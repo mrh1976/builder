@@ -81,50 +81,92 @@ export default function Index() {
             Institutions see the potential of blockchain
           </h2>
           <h3 className="text-[72px] font-semibold leading-[86px] text-center max-w-[1280px] bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
-            automation, transparency, and programmability that can transform how finance moves.
+            automation, transparency, and programmability that can transform how
+            finance moves.
           </h3>
           <h3 className="text-[72px] font-semibold leading-[86px] text-center bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
-            But the very things that make blockchain open and powerful also make it impractical for enterprise use.
+            But the very things that make blockchain open and powerful also make
+            it impractical for enterprise use.
           </h3>
           <h3 className="text-[72px] font-semibold leading-[86px] text-center max-w-[1338px] bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
-            Public chains expose sensitive data. Private chains isolate systems and lose network trust.
-            <br /><br />
+            Public chains expose sensitive data. Private chains isolate systems
+            and lose network trust.
+            <br />
+            <br />
             The tradeoff between innovation and control has stalled progress.
           </h3>
           <h3 className="text-[72px] font-semibold leading-[86px] text-center bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
             Prividium removes that tradeoff.
           </h3>
           <h3 className="text-[72px] font-semibold leading-[86px] text-center max-w-[1280px] bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
-            It's how institutions modernize their infrastructure. No more sacrificing on privacy, compliance, or trust.
+            It's how institutions modernize their infrastructure. No more
+            sacrificing on privacy, compliance, or trust.
           </h3>
         </div>
       </section>
 
       <section className="relative bg-brand-gray py-32 px-8 overflow-hidden">
-        <svg className="absolute left-0 bottom-0 w-[625px] h-[761px] opacity-50" viewBox="0 0 761 625" fill="none">
-          <path opacity="0.5" d="M-6.10352e-05 0V625H760.969L-6.10352e-05 0Z" fill="url(#paint0_linear_section1)"/>
+        <svg
+          className="absolute left-0 bottom-0 w-[625px] h-[761px] opacity-50"
+          viewBox="0 0 761 625"
+          fill="none"
+        >
+          <path
+            opacity="0.5"
+            d="M-6.10352e-05 0V625H760.969L-6.10352e-05 0Z"
+            fill="url(#paint0_linear_section1)"
+          />
           <defs>
-            <linearGradient id="paint0_linear_section1" x1="380.484" y1="0" x2="380.484" y2="625" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#98B6FE"/>
-              <stop offset="1" stopColor="#98B6FE" stopOpacity="0"/>
+            <linearGradient
+              id="paint0_linear_section1"
+              x1="380.484"
+              y1="0"
+              x2="380.484"
+              y2="625"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#98B6FE" />
+              <stop offset="1" stopColor="#98B6FE" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
-        <svg className="absolute right-0 top-11 w-[625px] h-[761px] opacity-50" viewBox="0 0 604 625" fill="none">
-          <path opacity="0.5" d="M760.969 625V0H0L760.969 625Z" fill="url(#paint0_linear_section2)"/>
+        <svg
+          className="absolute right-0 top-11 w-[625px] h-[761px] opacity-50"
+          viewBox="0 0 604 625"
+          fill="none"
+        >
+          <path
+            opacity="0.5"
+            d="M760.969 625V0H0L760.969 625Z"
+            fill="url(#paint0_linear_section2)"
+          />
           <defs>
-            <linearGradient id="paint0_linear_section2" x1="380.484" y1="625" x2="380.484" y2="0" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#98B6FE"/>
-              <stop offset="1" stopColor="#98B6FE" stopOpacity="0"/>
+            <linearGradient
+              id="paint0_linear_section2"
+              x1="380.484"
+              y1="625"
+              x2="380.484"
+              y2="0"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#98B6FE" />
+              <stop offset="1" stopColor="#98B6FE" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
 
         <div className="relative z-10 max-w-[1920px] mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-semibold text-black mb-4 tracking-tight">Prividium means no compromises</h2>
+            <h2 className="text-5xl font-semibold text-black mb-4 tracking-tight">
+              Prividium means no compromises
+            </h2>
             <p className="text-xl text-black max-w-[941px] mx-auto leading-7">
-              Prividium is a private, programmable rollup framework built on the ZK Stack and secured by Ethereum. It lets institutions operate with full data privacy and regulatory control — while proofs of every transaction are verified publicly using zero-knowledge cryptography. You get the efficiency and security of blockchain, with the compliance and governance your business demands.
+              Prividium is a private, programmable rollup framework built on the
+              ZK Stack and secured by Ethereum. It lets institutions operate
+              with full data privacy and regulatory control — while proofs of
+              every transaction are verified publicly using zero-knowledge
+              cryptography. You get the efficiency and security of blockchain,
+              with the compliance and governance your business demands.
             </p>
           </div>
 
@@ -136,9 +178,14 @@ export default function Index() {
                 className="w-24 h-24"
               />
               <div className="space-y-4">
-                <h3 className="text-[32px] font-semibold text-black leading-10">Native Privacy and Compliance. Not an add on</h3>
+                <h3 className="text-[32px] font-semibold text-black leading-10">
+                  Native Privacy and Compliance. Not an add on
+                </h3>
                 <p className="text-base text-black leading-6">
-                  Prividium was built for regulated environments. Every layer, from execution to access, supports permissioning, audit logs, and KYC/KYB enforcement. It's compliance by design, not afterthought.
+                  Prividium was built for regulated environments. Every layer,
+                  from execution to access, supports permissioning, audit logs,
+                  and KYC/KYB enforcement. It's compliance by design, not
+                  afterthought.
                 </p>
               </div>
             </div>
@@ -150,9 +197,14 @@ export default function Index() {
                 className="w-24 h-24"
               />
               <div className="space-y-4">
-                <h3 className="text-[32px] font-semibold text-black leading-10">Customizable. Your rules, your governance, your control</h3>
+                <h3 className="text-[32px] font-semibold text-black leading-10">
+                  Customizable. Your rules, your governance, your control
+                </h3>
                 <p className="text-base text-black leading-6">
-                  Deploy a private rollup that reflects your organization's structure. Define who can transact, what's visible, and how validation works. You own the chain, its data, operations, and evolution.
+                  Deploy a private rollup that reflects your organization's
+                  structure. Define who can transact, what's visible, and how
+                  validation works. You own the chain, its data, operations, and
+                  evolution.
                 </p>
               </div>
             </div>
@@ -164,9 +216,14 @@ export default function Index() {
                 className="w-24 h-24"
               />
               <div className="space-y-4">
-                <h3 className="text-[32px] font-semibold text-black leading-10">Security and trust. Anchored on Ethereum</h3>
+                <h3 className="text-[32px] font-semibold text-black leading-10">
+                  Security and trust. Anchored on Ethereum
+                </h3>
                 <p className="text-base text-black leading-6">
-                  Each batch of transactions is verified by cryptographic proofs on Ethereum. You keep your data private while inheriting the most secure and decentralized validation layer on earth. No intermediaries, no blind trust, just math.
+                  Each batch of transactions is verified by cryptographic proofs
+                  on Ethereum. You keep your data private while inheriting the
+                  most secure and decentralized validation layer on earth. No
+                  intermediaries, no blind trust, just math.
                 </p>
               </div>
             </div>
@@ -178,9 +235,14 @@ export default function Index() {
                 className="w-24 h-24"
               />
               <div className="space-y-4">
-                <h3 className="text-[32px] font-semibold text-black leading-10">No Silos. Stay Connected to the broader network</h3>
+                <h3 className="text-[32px] font-semibold text-black leading-10">
+                  No Silos. Stay Connected to the broader network
+                </h3>
                 <p className="text-base text-black leading-6">
-                  Prividium chains interoperate through zkSync Connect, enabling atomic, compliant settlement across private and public systems. Operate privately while remaining part of the global blockchain economy.
+                  Prividium chains interoperate through zkSync Connect, enabling
+                  atomic, compliant settlement across private and public
+                  systems. Operate privately while remaining part of the global
+                  blockchain economy.
                 </p>
               </div>
             </div>
@@ -198,28 +260,53 @@ export default function Index() {
 
       <section className="py-32 px-8">
         <div className="max-w-[1331px] mx-auto">
-          <h2 className="text-5xl font-semibold text-black text-center mb-16 tracking-tight">How Prividium works</h2>
+          <h2 className="text-5xl font-semibold text-black text-center mb-16 tracking-tight">
+            How Prividium works
+          </h2>
           <div className="flex gap-20">
             <div className="flex-1 space-y-16">
               <div className="space-y-2">
-                <h3 className="text-4xl font-semibold text-black leading-10">Deploy your private rollup</h3>
-                <p className="text-base text-black leading-6">Use the ZK Stack to launch a sovereign chain within your infrastructure.</p>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Deploy your private rollup
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Use the ZK Stack to launch a sovereign chain within your
+                  infrastructure.
+                </p>
               </div>
               <div className="space-y-2">
-                <h3 className="text-4xl font-semibold text-black leading-10">Execute Privately</h3>
-                <p className="text-base text-black leading-6">Transactions and data remain under your control.</p>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Execute Privately
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Transactions and data remain under your control.
+                </p>
               </div>
               <div className="space-y-2">
-                <h3 className="text-4xl font-semibold text-black leading-10">Generate Proofs</h3>
-                <p className="text-base text-black leading-6">Zero-knowledge cryptography privately verifies accuracy.</p>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Generate Proofs
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Zero-knowledge cryptography privately verifies accuracy.
+                </p>
               </div>
               <div className="space-y-2">
-                <h3 className="text-4xl font-semibold text-black leading-10">Anchor to Ethereum</h3>
-                <p className="text-base text-black leading-6">Proofs are posted on Ethereum for public validation and final settlement.</p>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Anchor to Ethereum
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Proofs are posted on Ethereum for public validation and final
+                  settlement.
+                </p>
               </div>
               <div className="space-y-2">
-                <h3 className="text-4xl font-semibold text-black leading-10">Connect Globally</h3>
-                <p className="text-base text-black leading-6">Optional interoperability with other Prividium and zkSync chains enables instant, compliant cross-chain activity.</p>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Connect Globally
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Optional interoperability with other Prividium and zkSync
+                  chains enables instant, compliant cross-chain activity.
+                </p>
               </div>
             </div>
             <div className="flex-1">
@@ -235,7 +322,9 @@ export default function Index() {
 
       <section className="py-32 px-8">
         <div className="max-w-[1280px] mx-auto">
-          <h2 className="text-5xl font-semibold text-black text-center mb-16 tracking-tight">Prividium enables new use cases</h2>
+          <h2 className="text-5xl font-semibold text-black text-center mb-16 tracking-tight">
+            Prividium enables new use cases
+          </h2>
           <div className="space-y-32">
             <div className="flex gap-5 items-center">
               <img
@@ -244,23 +333,53 @@ export default function Index() {
                 className="w-1/2 h-auto"
               />
               <div className="w-1/2 space-y-4">
-                <p className="text-brand-blue text-sm">Faster, compliant global payments</p>
-                <h3 className="text-4xl font-semibold text-black leading-10">Cross-Border Settlement Without Exposure</h3>
-                <p className="text-base text-black leading-6">
-                  Move value across jurisdictions in seconds — with programmable compliance baked in. Each transaction executes privately within your governance framework, while zero-knowledge proofs ensure global verification and regulatory confidence. <strong>Outcome</strong>: faster settlements, reduced FX risk, and a transparent audit trail that satisfies both regulators and counterparties.
+                <p className="text-brand-blue text-sm">
+                  Faster, compliant global payments
                 </p>
-                <a href="#" className="text-brand-blue-dark text-base font-semibold underline">Learn how Prividium keeps data private ➔</a>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Cross-Border Settlement Without Exposure
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Move value across jurisdictions in seconds — with programmable
+                  compliance baked in. Each transaction executes privately
+                  within your governance framework, while zero-knowledge proofs
+                  ensure global verification and regulatory confidence.{" "}
+                  <strong>Outcome</strong>: faster settlements, reduced FX risk,
+                  and a transparent audit trail that satisfies both regulators
+                  and counterparties.
+                </p>
+                <a
+                  href="#"
+                  className="text-brand-blue-dark text-base font-semibold underline"
+                >
+                  Learn how Prividium keeps data private ➔
+                </a>
               </div>
             </div>
 
             <div className="flex gap-5 items-center">
               <div className="w-1/2 space-y-4">
-                <p className="text-brand-blue text-sm">Full lifecycle for digital assets</p>
-                <h3 className="text-4xl font-semibold text-black leading-10">Private Digital Asset Issuance and Lifecycle Management</h3>
-                <p className="text-base text-black leading-6">
-                  Tokenize funds, securities, or structured products under your control, without disclosing sensitive data. Prividium enables full asset lifecycle management, from issuance and transfer to redemption and reporting, all verifiable on Ethereum. <strong>Outcome:</strong> instant distribution, automated compliance, and complete visibility for auditors and investors — without public exposure.
+                <p className="text-brand-blue text-sm">
+                  Full lifecycle for digital assets
                 </p>
-                <a href="#" className="text-brand-blue-dark text-base font-semibold underline">Learn how Prividium keeps data private ➔</a>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Private Digital Asset Issuance and Lifecycle Management
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Tokenize funds, securities, or structured products under your
+                  control, without disclosing sensitive data. Prividium enables
+                  full asset lifecycle management, from issuance and transfer to
+                  redemption and reporting, all verifiable on Ethereum.{" "}
+                  <strong>Outcome:</strong> instant distribution, automated
+                  compliance, and complete visibility for auditors and investors
+                  — without public exposure.
+                </p>
+                <a
+                  href="#"
+                  className="text-brand-blue-dark text-base font-semibold underline"
+                >
+                  Learn how Prividium keeps data private ➔
+                </a>
               </div>
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/5731d66bc7372e474d7ffd3e31824e4500b406e1?width=1260"
@@ -276,23 +395,53 @@ export default function Index() {
                 className="w-1/2 h-auto"
               />
               <div className="w-1/2 space-y-4">
-                <p className="text-brand-blue text-sm">Compliant markets, verified participants</p>
-                <h3 className="text-4xl font-semibold text-black leading-10">Regulated Market Infrastructure with Embedded KYC</h3>
-                <p className="text-base text-black leading-6">
-                  Operate private, compliant trading environments where participants are verified, rules are enforced by code, and trades are provable without revealing identities. Prividium's programmable privacy allows selective disclosure to regulators or partners, preserving confidentiality where it matters most. <strong>Outcome:</strong> compliant market infrastructure ready for digital securities, carbon credits, or interbank trading.
+                <p className="text-brand-blue text-sm">
+                  Compliant markets, verified participants
                 </p>
-                <a href="#" className="text-brand-blue-dark text-base font-semibold underline">Learn how Prividium keeps data private ➔</a>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Regulated Market Infrastructure with Embedded KYC
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Operate private, compliant trading environments where
+                  participants are verified, rules are enforced by code, and
+                  trades are provable without revealing identities. Prividium's
+                  programmable privacy allows selective disclosure to regulators
+                  or partners, preserving confidentiality where it matters most.{" "}
+                  <strong>Outcome:</strong> compliant market infrastructure
+                  ready for digital securities, carbon credits, or interbank
+                  trading.
+                </p>
+                <a
+                  href="#"
+                  className="text-brand-blue-dark text-base font-semibold underline"
+                >
+                  Learn how Prividium keeps data private ➔
+                </a>
               </div>
             </div>
 
             <div className="flex gap-5 items-center">
               <div className="w-1/2 space-y-4">
-                <p className="text-brand-blue text-sm">Secure cross-chain financial products</p>
-                <h3 className="text-4xl font-semibold text-black leading-10">Interbank Liquidity and Atomic Settlement</h3>
-                <p className="text-base text-black leading-6">
-                  Enable instant, risk-free exchange of tokenized assets between institutions, without intermediaries or reconciliation delays. Zero-knowledge proofs validate every trade while preserving counterparty confidentiality. <strong>Outcome</strong>: near real-time settlement, improved liquidity management, and full operational integrity.
+                <p className="text-brand-blue text-sm">
+                  Secure cross-chain financial products
                 </p>
-                <a href="#" className="text-brand-blue-dark text-base font-semibold underline">Learn how Prividium keeps data private ➔</a>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Interbank Liquidity and Atomic Settlement
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Enable instant, risk-free exchange of tokenized assets between
+                  institutions, without intermediaries or reconciliation delays.
+                  Zero-knowledge proofs validate every trade while preserving
+                  counterparty confidentiality. <strong>Outcome</strong>: near
+                  real-time settlement, improved liquidity management, and full
+                  operational integrity.
+                </p>
+                <a
+                  href="#"
+                  className="text-brand-blue-dark text-base font-semibold underline"
+                >
+                  Learn how Prividium keeps data private ➔
+                </a>
               </div>
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/842cd09bd1f9637bc4f977111f6517373855be28?width=1240"
@@ -308,12 +457,26 @@ export default function Index() {
                 className="w-1/2 h-auto"
               />
               <div className="w-1/2 space-y-6">
-                <p className="text-brand-blue text-sm">Real-time intraday liquidity</p>
-                <h3 className="text-4xl font-semibold text-black leading-10">Intraday Financing and Collateral Optimization</h3>
-                <p className="text-base text-black leading-6">
-                  Automate intraday repo, margin management, and secured funding on private rails that settle with public finality. Each transaction remains confidential but provably correct, reducing friction and freeing working capital. <strong>Outcome:</strong> increased liquidity efficiency, minimized settlement risk, and transparent auditability.
+                <p className="text-brand-blue text-sm">
+                  Real-time intraday liquidity
                 </p>
-                <a href="#" className="text-brand-blue-dark text-base font-semibold underline">Learn how Prividium keeps data private ➔</a>
+                <h3 className="text-4xl font-semibold text-black leading-10">
+                  Intraday Financing and Collateral Optimization
+                </h3>
+                <p className="text-base text-black leading-6">
+                  Automate intraday repo, margin management, and secured funding
+                  on private rails that settle with public finality. Each
+                  transaction remains confidential but provably correct,
+                  reducing friction and freeing working capital.{" "}
+                  <strong>Outcome:</strong> increased liquidity efficiency,
+                  minimized settlement risk, and transparent auditability.
+                </p>
+                <a
+                  href="#"
+                  className="text-brand-blue-dark text-base font-semibold underline"
+                >
+                  Learn how Prividium keeps data private ➔
+                </a>
               </div>
             </div>
           </div>
@@ -321,19 +484,38 @@ export default function Index() {
       </section>
 
       <section className="relative py-32 px-8 overflow-hidden">
-        <svg className="absolute right-0 top-0 w-[2113px] h-[1403px] opacity-50" viewBox="0 0 1501 1403" fill="none">
-          <path opacity="0.5" d="M0 0H2113V1402.71L0 0Z" fill="url(#paint0_linear_faq)"/>
+        <svg
+          className="absolute right-0 top-0 w-[2113px] h-[1403px] opacity-50"
+          viewBox="0 0 1501 1403"
+          fill="none"
+        >
+          <path
+            opacity="0.5"
+            d="M0 0H2113V1402.71L0 0Z"
+            fill="url(#paint0_linear_faq)"
+          />
           <defs>
-            <linearGradient id="paint0_linear_faq" x1="0" y1="701.356" x2="2113" y2="701.356" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#98B6FE"/>
-              <stop offset="1" stopColor="#98B6FE" stopOpacity="0"/>
+            <linearGradient
+              id="paint0_linear_faq"
+              x1="0"
+              y1="701.356"
+              x2="2113"
+              y2="701.356"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#98B6FE" />
+              <stop offset="1" stopColor="#98B6FE" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
-        
+
         <div className="relative z-10 max-w-[1064px] mx-auto text-center">
-          <h2 className="text-4xl font-semibold text-brand-dark-text mb-4 tracking-tight">Frequently asked questions</h2>
-          <p className="text-base text-black mb-12">Everything you need to know about Prividium.</p>
+          <h2 className="text-4xl font-semibold text-brand-dark-text mb-4 tracking-tight">
+            Frequently asked questions
+          </h2>
+          <p className="text-base text-black mb-12">
+            Everything you need to know about Prividium.
+          </p>
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/1e972e6bff3b06e15523e44481977d8d092137d1?width=2128"
             alt="FAQ accordion"
@@ -342,13 +524,31 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="contact" className="relative bg-brand-gray py-32 px-8 overflow-hidden">
-        <svg className="absolute left-0 bottom-0 w-[625px] h-[761px] opacity-50" viewBox="0 0 761 625" fill="none">
-          <path opacity="0.5" d="M-6.10352e-05 0V625H760.969L-6.10352e-05 0Z" fill="url(#paint0_linear_contact)"/>
+      <section
+        id="contact"
+        className="relative bg-brand-gray py-32 px-8 overflow-hidden"
+      >
+        <svg
+          className="absolute left-0 bottom-0 w-[625px] h-[761px] opacity-50"
+          viewBox="0 0 761 625"
+          fill="none"
+        >
+          <path
+            opacity="0.5"
+            d="M-6.10352e-05 0V625H760.969L-6.10352e-05 0Z"
+            fill="url(#paint0_linear_contact)"
+          />
           <defs>
-            <linearGradient id="paint0_linear_contact" x1="380.484" y1="0" x2="380.484" y2="625" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#98B6FE"/>
-              <stop offset="1" stopColor="#98B6FE" stopOpacity="0"/>
+            <linearGradient
+              id="paint0_linear_contact"
+              x1="380.484"
+              y1="0"
+              x2="380.484"
+              y2="625"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#98B6FE" />
+              <stop offset="1" stopColor="#98B6FE" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -363,9 +563,12 @@ export default function Index() {
 
         <div className="relative z-10 max-w-[1280px] mx-auto flex gap-20 items-start">
           <div className="w-[412px] space-y-5">
-            <h2 className="text-5xl font-semibold text-brand-blue leading-[60px]">Talk to an expert</h2>
+            <h2 className="text-5xl font-semibold text-brand-blue leading-[60px]">
+              Talk to an expert
+            </h2>
             <p className="text-base text-brand-blue leading-6">
-              Deploy Prividium with confidence. Keep data private, stay compliant, and anchor to Ethereum for unmatched security.
+              Deploy Prividium with confidence. Keep data private, stay
+              compliant, and anchor to Ethereum for unmatched security.
             </p>
           </div>
           <div className="flex-1">
