@@ -70,7 +70,7 @@ export default function Index() {
 
             {/* Right side - Animation */}
             <div className="flex items-center justify-center lg:justify-end">
-              <div className="w-full max-w-[500px]">
+              <div className="w-full max-w-[650px]">
                 <dotlottie-wc
                   src="https://lottie.host/e3f24856-4857-406f-881c-7d84361ccd6d/0ZsEdiWHTz.lottie"
                   autoplay
