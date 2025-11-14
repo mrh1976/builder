@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import ScrollNarrativeSticky from "@/components/ScrollNarrativeSticky";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Index() {
   useEffect(() => {
