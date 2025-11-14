@@ -17,7 +17,7 @@ export default function Index() {
             animationData={heroAnimation}
             loop={true}
             autoplay={true}
-            style={{ width: '100%', maxWidth: '600px', height: 'auto' }}
+            style={{ width: "100%", maxWidth: "600px", height: "auto" }}
           />
         </div>
       </section>
@@ -26,7 +26,9 @@ export default function Index() {
       <section className="bg-white -mt-20 relative z-20 px-8 pb-16">
         <div className="max-w-[1280px] mx-auto">
           <div className="bg-brand-gray rounded-[20px] p-[60px] flex flex-col items-start gap-10">
-            <p className="text-brand-blue text-base font-semibold">Select Observers</p>
+            <p className="text-brand-blue text-base font-semibold">
+              Select Observers
+            </p>
             <div className="w-full flex flex-col gap-20">
               <div className="flex justify-between items-center flex-wrap gap-8">
                 <img
