@@ -142,55 +142,37 @@ export default function Index() {
       {/* Story Section - Scroll Reveal with Staggered Animation */}
       <section className="py-24 px-8">
         <div className="max-w-[1280px] mx-auto flex flex-col items-center gap-12">
-          <SplitTextReveal className="w-full text-brand-blue text-[56px] font-semibold leading-[72px] text-center">
+          <ScrollNarrative className="w-full text-brand-blue text-[56px] font-semibold leading-[72px] text-center">
             Institutions see the potential of blockchain
-          </SplitTextReveal>
+          </ScrollNarrative>
 
-          <SplitTextReveal
-            delay={100}
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
-          >
+          <ScrollNarrative className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
             automation, transparency, and programmability that can transform how
             finance moves.
-          </SplitTextReveal>
+          </ScrollNarrative>
 
-          <SplitTextReveal
-            delay={200}
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
-          >
+          <ScrollNarrative className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
             But the very things that make blockchain open and powerful also make
             it impractical for enterprise use.
-          </SplitTextReveal>
+          </ScrollNarrative>
 
-          <SplitTextReveal
-            delay={300}
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
-          >
+          <ScrollNarrative className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
             Public chains expose sensitive data. Private chains isolate systems
             and lose network trust.
-          </SplitTextReveal>
+          </ScrollNarrative>
 
-          <SplitTextReveal
-            delay={400}
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
-          >
+          <ScrollNarrative className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
             The tradeoff between innovation and control has stalled progress.
-          </SplitTextReveal>
+          </ScrollNarrative>
 
-          <SplitTextReveal
-            delay={500}
-            className="w-full text-[56px] font-semibold leading-[72px] text-center bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
-          >
+          <ScrollNarrative className="w-full text-[56px] font-semibold leading-[72px] text-center bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
             Prividium removes that tradeoff.
-          </SplitTextReveal>
+          </ScrollNarrative>
 
-          <SplitTextReveal
-            delay={600}
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
-          >
+          <ScrollNarrative className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
             It's how institutions modernize their infrastructure. No more
             sacrificing on privacy, compliance, or trust.
-          </SplitTextReveal>
+          </ScrollNarrative>
         </div>
       </section>
 
