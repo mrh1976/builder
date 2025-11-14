@@ -57,10 +57,10 @@
   font-size: clamp(2.8rem, 5.4vw, 4.6rem);
   letter-spacing: -0.012em;
   transform-origin: center;
-  transition: opacity 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+  transition: opacity 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
               transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
-              filter 0.3s ease-out,
-              text-shadow 0.5s ease-out;
+              filter 0.25s ease-out,
+              text-shadow 0.4s ease-out;
   text-shadow: 0 0 0 rgba(7, 14, 160, 0);
 }
 
