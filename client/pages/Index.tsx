@@ -363,8 +363,8 @@ export default function Index() {
                 />
                 <div className="space-y-3">
                   <h3 className="text-2xl font-semibold text-black leading-8">
-                    Real Business Impact. Faster, Less Expensive, More
-                    Transparent
+                    Real business impact. Faster, less expensive, more
+                    transparent
                   </h3>
                   <p className="text-sm text-black leading-6">
                     Automate settlement and reconciliation. Lower operational
