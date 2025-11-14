@@ -356,7 +356,7 @@ export default function Index() {
                   </h3>
                   <p className="text-sm text-black leading-6">
                     Automate settlement and reconciliation. Lower operational
-                    cost and counterparty risk. Provide near-time, provable
+                    cost and counterparty risk. Provide near real-time, provable
                     transparency to auditors and regulators. All without
                     exposing internal data.
                   </p>
