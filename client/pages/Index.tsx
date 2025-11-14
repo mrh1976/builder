@@ -373,11 +373,13 @@ export default function Index() {
               delay={200}
               className="flex gap-5 items-center flex-col lg:flex-row"
             >
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/04d592bd699b169e7896c626d8dd13d7704e6ddb?width=1260"
-                alt="Cross-border settlement"
-                className="w-full lg:w-1/2 h-auto"
-              />
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/04d592bd699b169e7896c626d8dd13d7704e6ddb?width=1260"
+                  alt="Cross-border settlement"
+                  className="w-full h-auto max-w-[500px]"
+                />
+              </div>
               <div className="w-full lg:w-1/2 space-y-3">
                 <p className="text-brand-blue text-xs font-semibold">
                   Faster, compliant global payments
@@ -412,7 +414,7 @@ export default function Index() {
                   Full lifecycle for digital assets
                 </p>
                 <h3 className="text-3xl font-semibold text-black leading-9">
-                  Private Digital Asset Issuance and Lifecycle Management
+                  Digital asset issuance and lifecycle management
                 </h3>
                 <p className="text-sm text-black leading-6">
                   Tokenize funds, securities, or structured products under your
@@ -430,28 +432,32 @@ export default function Index() {
                   Learn how Prividium keeps data private ➔
                 </a>
               </div>
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/5731d66bc7372e474d7ffd3e31824e4500b406e1?width=1260"
-                alt="Digital asset issuance"
-                className="w-full lg:w-1/2 h-auto"
-              />
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/5731d66bc7372e474d7ffd3e31824e4500b406e1?width=1260"
+                  alt="Digital asset issuance"
+                  className="w-full h-auto max-w-[500px]"
+                />
+              </div>
             </ScrollReveal>
 
             <ScrollReveal
               delay={600}
               className="flex gap-5 items-center flex-col lg:flex-row"
             >
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/12069bfd8a03ad9cf69791881b2e926554a8f538?width=1260"
-                alt="Regulated market infrastructure"
-                className="w-full lg:w-1/2 h-auto"
-              />
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/12069bfd8a03ad9cf69791881b2e926554a8f538?width=1260"
+                  alt="Regulated market infrastructure"
+                  className="w-full h-auto max-w-[500px]"
+                />
+              </div>
               <div className="w-full lg:w-1/2 space-y-3">
                 <p className="text-brand-blue text-xs font-semibold">
                   Compliant markets, verified participants
                 </p>
                 <h3 className="text-3xl font-semibold text-black leading-9">
-                  Regulated Market Infrastructure with Embedded KYC
+                  KYC-anchored tokenized markets
                 </h3>
                 <p className="text-sm text-black leading-6">
                   Operate private, compliant trading environments where
@@ -481,7 +487,7 @@ export default function Index() {
                   Secure cross-chain financial products
                 </p>
                 <h3 className="text-3xl font-semibold text-black leading-9">
-                  Interbank Liquidity and Atomic Settlement
+                  Atomic swaps and cross-chain finance between institutions
                 </h3>
                 <p className="text-sm text-black leading-6">
                   Enable instant, risk-free exchange of tokenized assets between
@@ -498,28 +504,32 @@ export default function Index() {
                   Learn how Prividium keeps data private ➔
                 </a>
               </div>
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/842cd09bd1f9637bc4f977111f6517373855be28?width=1240"
-                alt="Interbank liquidity"
-                className="w-full lg:w-1/2 h-auto"
-              />
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/842cd09bd1f9637bc4f977111f6517373855be28?width=1240"
+                  alt="Interbank liquidity"
+                  className="w-full h-auto max-w-[500px]"
+                />
+              </div>
             </ScrollReveal>
 
             <ScrollReveal
               delay={1000}
               className="flex gap-5 items-center flex-col lg:flex-row"
             >
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/e43a2d5e8bf9a40740c3e1700ae06a4f9c6b1f07?width=1240"
-                alt="Intraday financing"
-                className="w-full lg:w-1/2 h-auto"
-              />
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/e43a2d5e8bf9a40740c3e1700ae06a4f9c6b1f07?width=1240"
+                  alt="Intraday financing"
+                  className="w-full h-auto max-w-[500px]"
+                />
+              </div>
               <div className="w-full lg:w-1/2 space-y-4">
                 <p className="text-brand-blue text-xs font-semibold">
                   Real-time intraday liquidity
                 </p>
                 <h3 className="text-3xl font-semibold text-black leading-9">
-                  Intraday Financing and Collateral Optimization
+                  Intraday repo and secured financing
                 </h3>
                 <p className="text-sm text-black leading-6">
                   Automate intraday repo, margin management, and secured funding
