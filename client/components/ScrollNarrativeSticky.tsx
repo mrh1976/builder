@@ -44,43 +44,6 @@ export default function ScrollNarrativeSticky({
     };
   }, []);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!scaleLineRef.current) return;
-
-      const pinStepIndex = steps.findIndex((s) => s.isHero);
-      if (pinStepIndex === -1) return;
-
-      const pinStep = scrollStepRefs.current[pinStepIndex];
-      if (!pinStep) return;
-
-      const rect = pinStep.getBoundingClientRect();
-      const winH = window.innerHeight;
-
-      // Allow scaling to continue even as next step comes into view
-      if (rect.top > winH * 1.5) {
-        scaleLineRef.current.style.transform = "scale(1)";
-        return;
-      }
-
-      const start = winH * 0.15;
-      const end = winH * 1.5;
-
-      const centerY = winH / 2;
-      const relative = centerY - rect.top;
-      let progress = (relative - start) / (end - start);
-      progress = Math.min(Math.max(progress, 0), 1);
-
-      const minScale = 1;
-      const maxScale = 1.8;
-      const scale = minScale + (maxScale - minScale) * Math.pow(progress, 1.2);
-
-      scaleLineRef.current.style.transform = `scale(${scale})`;
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [steps]);
 
   return (
     <section className={styles.prividiumScroll}>
