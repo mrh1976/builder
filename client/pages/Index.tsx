@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
+import SplitTextReveal from "@/components/SplitTextReveal";
 import Lottie from "lottie-react";
 import heroAnimation from "@/hero-animation.json";
 
@@ -425,11 +426,11 @@ export default function Index() {
               delay={200}
               className="flex gap-5 items-center flex-col lg:flex-row"
             >
-              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[400px]">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/04d592bd699b169e7896c626d8dd13d7704e6ddb?width=1260"
                   alt="Cross-border settlement"
-                  className="w-full h-auto max-w-[500px]"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full lg:w-1/2 space-y-3">
@@ -484,11 +485,11 @@ export default function Index() {
                   Learn how Prividium keeps data private ➔
                 </a>
               </div>
-              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[400px]">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/5731d66bc7372e474d7ffd3e31824e4500b406e1?width=1260"
                   alt="Digital asset issuance"
-                  className="w-full h-auto max-w-[500px]"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </ScrollReveal>
@@ -497,11 +498,11 @@ export default function Index() {
               delay={600}
               className="flex gap-5 items-center flex-col lg:flex-row"
             >
-              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[400px]">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/12069bfd8a03ad9cf69791881b2e926554a8f538?width=1260"
                   alt="Regulated market infrastructure"
-                  className="w-full h-auto max-w-[500px]"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full lg:w-1/2 space-y-3">
@@ -556,11 +557,11 @@ export default function Index() {
                   Learn how Prividium keeps data private ➔
                 </a>
               </div>
-              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[400px]">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/842cd09bd1f9637bc4f977111f6517373855be28?width=1240"
                   alt="Interbank liquidity"
-                  className="w-full h-auto max-w-[500px]"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </ScrollReveal>
@@ -569,11 +570,11 @@ export default function Index() {
               delay={1000}
               className="flex gap-5 items-center flex-col lg:flex-row"
             >
-              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center p-8 min-h-[400px]">
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[400px]">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/e43a2d5e8bf9a40740c3e1700ae06a4f9c6b1f07?width=1240"
                   alt="Intraday financing"
-                  className="w-full h-auto max-w-[500px]"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full lg:w-1/2 space-y-4">
