@@ -163,10 +163,6 @@ export default function Index() {
               lineClass: "",
             },
             {
-              text: "Automation, transparency, and programmability that can transform how finance moves.",
-              lineClass: "",
-            },
-            {
               text: "But the very things that make blockchain open and powerful also make it impractical for enterprise use.",
               lineClass: "",
             },
