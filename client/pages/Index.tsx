@@ -69,12 +69,12 @@ export default function Index() {
 
             {/* Right side - Animation */}
             <div className="flex items-center justify-center lg:justify-end">
-              <div className="w-full max-w-[500px] aspect-[531/414]">
-                <Lottie
-                  animationData={heroAnimation}
-                  loop={true}
-                  autoplay={true}
-                  style={{ width: "100%", height: "100%" }}
+              <div className="w-full max-w-[500px]">
+                <dotlottie-wc
+                  src="https://lottie.host/e3f24856-4857-406f-881c-7d84361ccd6d/0ZsEdiWHTz.lottie"
+                  autoplay
+                  loop
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
