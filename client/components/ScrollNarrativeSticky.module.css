@@ -1,0 +1,47 @@
+.prividiumScroll {
+  position: relative;
+}
+
+.scrollStep {
+  position: relative;
+  height: 240vh;
+  padding: 0 8vw;
+}
+
+.stickyInner {
+  position: sticky;
+  top: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.line {
+  max-width: 920px;
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.27;
+  opacity: 0.85;
+  color: #070ea0;
+  transform: translateY(25px);
+  transition: opacity 0.85s ease-out, transform 0.85s ease-out;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+.scrollStep.active .line {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.line-6 {
+  font-weight: 800;
+  font-size: clamp(2.8rem, 5.4vw, 4.6rem);
+  letter-spacing: -0.012em;
+}
+
+.scrollStepPin {
+  /* pinned step styling */
+}
