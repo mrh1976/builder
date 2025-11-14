@@ -97,7 +97,11 @@ export default function ScrollNarrativeSticky({
               className={`${styles.line} ${
                 step.lineClass ? styles[step.lineClass] : ""
               }`}
-              ref={step.isHero ? scaleLineRef : undefined}
+              ref={(el) => {
+                if (step.isHero && el) {
+                  scaleLineRef.current = el;
+                }
+              }}
             >
               {step.text}
             </p>
