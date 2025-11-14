@@ -59,19 +59,17 @@ Select Observers
 
 Step 1: Institutions see the potential of blockchain.
 
-Step 2: Automation, transparency, and programmability that can transform how finance moves.
+Step 2: But the very things that make blockchain open and powerful also make it impractical for enterprise use.
 
-Step 3: But the very things that make blockchain open and powerful also make it impractical for enterprise use.
+Step 3: Public chains expose sensitive data. Private chains isolate systems and lose network trust.
 
-Step 4: Public chains expose sensitive data. Private chains isolate systems and lose network trust.
+Step 4: The tradeoff between innovation and control has stalled progress.
 
-Step 5: The tradeoff between innovation and control has stalled progress.
+Step 5 (Hero): With Prividium, there are no tradeoffs.
 
-Step 6 (Hero): With Prividium, there are no tradeoffs.
+Step 6: This is how institutions modernize their infrastructure.
 
-Step 7: This is how institutions modernize their infrastructure.
-
-Step 8: No more sacrificing on privacy, compliance, or trust.
+Step 7: No more sacrificing on privacy, compliance, or trust.
 
 ---
 
@@ -189,7 +187,7 @@ Prividium enables new use cases
 
 **Heading:** Cross-border settlement without exposure
 
-**Description:** Move value across jurisdictions in seconds — with programmable compliance baked in. Each transaction executes privately within your governance framework, while zero-knowledge proofs ensure global verification and regulatory confidence. Outcome: faster settlements, reduced FX risk, and a transparent audit trail that satisfies both regulators and counterparties.
+**Description:** Move value across jurisdictions in seconds ��� with programmable compliance baked in. Each transaction executes privately within your governance framework, while zero-knowledge proofs ensure global verification and regulatory confidence. Outcome: faster settlements, reduced FX risk, and a transparent audit trail that satisfies both regulators and counterparties.
 
 **CTA Link:** Explore compliant cross-border payments ➔
 
