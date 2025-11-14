@@ -18,7 +18,9 @@ export default function ScrollNarrativeSticky({
   const scrollStepRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
-    const stepElements = scrollStepRefs.current.filter(Boolean) as HTMLDivElement[];
+    const stepElements = scrollStepRefs.current.filter(
+      Boolean,
+    ) as HTMLDivElement[];
 
     const stepObserver = new IntersectionObserver(
       (entries) => {
@@ -32,7 +34,7 @@ export default function ScrollNarrativeSticky({
       },
       {
         threshold: 0.5,
-      }
+      },
     );
 
     stepElements.forEach((step) => stepObserver.observe(step));
