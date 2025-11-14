@@ -12,14 +12,14 @@ export default function ScrollNarrative({
   className = "",
   animateGradient = false,
 }: ScrollNarrativeProps) {
-  const { ref, inView } = useInView({
+  const elementRef = useRef<HTMLDivElement>(null);
+  const { ref: inViewRef, inView } = useInView({
     threshold: 0.2,
     triggerOnce: false,
   });
 
   const [isVisible, setIsVisible] = useState(false);
   const [gradientOffset, setGradientOffset] = useState(0);
-  const elementRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (inView) {
@@ -28,13 +28,10 @@ export default function ScrollNarrative({
   }, [inView]);
 
   useEffect(() => {
-    if (!animateGradient || !elementRef.current) return;
-
     const handleScroll = () => {
-      const element = elementRef.current;
-      if (!element) return;
+      if (!elementRef.current) return;
 
-      const rect = element.getBoundingClientRect();
+      const rect = elementRef.current.getBoundingClientRect();
       const elementCenter = rect.top + rect.height / 2;
       const viewportCenter = window.innerHeight / 2;
 
@@ -45,18 +42,21 @@ export default function ScrollNarrative({
       setGradientOffset(progress * 50);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [animateGradient]);
+  }, []);
 
   return (
     <div
-      ref={ref}
+      ref={(node) => {
+        elementRef.current = node;
+        inViewRef(node);
+      }}
       className={className}
       style={{
         opacity: isVisible ? 1 : 0,
         transform: isVisible ? "translateY(0)" : "translateY(20px)",
-        transition: "all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+        transition: "opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
         backgroundPosition: animateGradient ? `${gradientOffset}% 0` : undefined,
         backgroundSize: animateGradient ? "200% 100%" : undefined,
       }}
