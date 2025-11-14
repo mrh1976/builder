@@ -147,22 +147,34 @@ export default function Index() {
             Institutions see the potential of blockchain
           </ScrollNarrative>
 
-          <ScrollNarrative animateGradient className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
+          <ScrollNarrative
+            animateGradient
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+          >
             automation, transparency, and programmability that can transform how
             finance moves.
           </ScrollNarrative>
 
-          <ScrollNarrative animateGradient className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
+          <ScrollNarrative
+            animateGradient
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+          >
             But the very things that make blockchain open and powerful also make
             it impractical for enterprise use.
           </ScrollNarrative>
 
-          <ScrollNarrative animateGradient className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
+          <ScrollNarrative
+            animateGradient
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+          >
             Public chains expose sensitive data. Private chains isolate systems
             and lose network trust.
           </ScrollNarrative>
 
-          <ScrollNarrative animateGradient className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
+          <ScrollNarrative
+            animateGradient
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+          >
             The tradeoff between innovation and control has stalled progress.
           </ScrollNarrative>
 
@@ -170,7 +182,10 @@ export default function Index() {
             Prividium removes that tradeoff.
           </HighlightedNarrativeLine>
 
-          <ScrollNarrative animateGradient className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
+          <ScrollNarrative
+            animateGradient
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+          >
             It's how institutions modernize their infrastructure. No more
             sacrificing on privacy, compliance, or trust.
           </ScrollNarrative>

@@ -58,7 +58,8 @@ export default function HighlightedNarrativeLine({
         transform: isVisible
           ? `translateY(0) scale(${scale})`
           : "translateY(20px) scale(0.95)",
-        transition: "opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.1s linear",
+        transition:
+          "opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.1s linear",
         transformOrigin: "center",
       }}
     >

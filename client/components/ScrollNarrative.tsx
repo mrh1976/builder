@@ -56,8 +56,11 @@ export default function ScrollNarrative({
       style={{
         opacity: isVisible ? 1 : 0,
         transform: isVisible ? "translateY(0)" : "translateY(20px)",
-        transition: "opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
-        backgroundPosition: animateGradient ? `${gradientOffset}% 0` : undefined,
+        transition:
+          "opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+        backgroundPosition: animateGradient
+          ? `${gradientOffset}% 0`
+          : undefined,
         backgroundSize: animateGradient ? "200% 100%" : undefined,
       }}
     >
