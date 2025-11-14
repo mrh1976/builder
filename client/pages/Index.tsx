@@ -139,56 +139,51 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Story Section - Scroll Reveal with Staggered Animation */}
-      <section className="py-24 px-8">
-        <div className="max-w-[1280px] mx-auto flex flex-col items-center gap-12">
-          <ScrollNarrative className="w-full text-brand-blue text-[56px] font-semibold leading-[72px] text-center">
-            Institutions see the potential of blockchain
-          </ScrollNarrative>
-
-          <ScrollNarrative
-            animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
-          >
-            automation, transparency, and programmability that can transform how
-            finance moves.
-          </ScrollNarrative>
-
-          <ScrollNarrative
-            animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
-          >
-            But the very things that make blockchain open and powerful also make
-            it impractical for enterprise use.
-          </ScrollNarrative>
-
-          <ScrollNarrative
-            animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
-          >
-            Public chains expose sensitive data. Private chains isolate systems
-            and lose network trust.
-          </ScrollNarrative>
-
-          <ScrollNarrative
-            animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
-          >
-            The tradeoff between innovation and control has stalled progress.
-          </ScrollNarrative>
-
-          <HighlightedNarrativeLine className="w-full text-[56px] font-semibold leading-[72px] text-center text-brand-blue">
-            Prividium removes that tradeoff.
-          </HighlightedNarrativeLine>
-
-          <ScrollNarrative
-            animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
-          >
-            It's how institutions modernize their infrastructure. No more
-            sacrificing on privacy, compliance, or trust.
-          </ScrollNarrative>
-        </div>
+      {/* Story Section - Sticky Scroll Narrative */}
+      <section className="py-12">
+        <ScrollNarrativeSticky
+          steps={[
+            {
+              text: "Institutions see the potential of blockchain.",
+              lineClass: "",
+            },
+            {
+              text: "Automation, transparency, and programmability that can transform how finance moves.",
+              lineClass: "",
+            },
+            {
+              text: "But the very things that make blockchain open and powerful also make it impractical for enterprise use.",
+              lineClass: "",
+            },
+            {
+              text: (
+                <>
+                  Public chains expose sensitive data. <br /> Private chains
+                  isolate systems and lose network trust.
+                </>
+              ),
+              lineClass: "",
+            },
+            {
+              text: "The tradeoff between innovation and control has stalled progress.",
+              lineClass: "",
+            },
+            {
+              text: "With Prividium, there are no tradeoffs.",
+              isHero: true,
+              lineClass: "line-6",
+            },
+            {
+              text: (
+                <>
+                  This is how institutions modernize their infrastructure.
+                  <br /> No more sacrificing on privacy, compliance, or trust.
+                </>
+              ),
+              lineClass: "",
+            },
+          ]}
+        />
       </section>
 
       {/* Features Section */}
