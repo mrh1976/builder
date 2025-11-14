@@ -351,7 +351,7 @@ export default function Index() {
             <ScrollReveal delay={1000} className="md:col-span-2 flex justify-center">
               <div className="flex flex-col items-center gap-6 text-center max-w-md">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/334d584e01f94999816740476cc847dbf1dc0176?width=192"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F5031849ff5814a4cae6f958ac9f10229%2F77a27fc3592d45b888d338d927a5f575?format=webp&width=192"
                   alt="Business Impact icon"
                   className="w-24 h-24"
                 />
