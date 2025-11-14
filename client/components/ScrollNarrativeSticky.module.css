@@ -55,9 +55,13 @@
 }
 
 .scrollStep.active .line-6 {
-  opacity: 1;
+  opacity: 1 !important;
   transform: translateY(0) scale(1);
   filter: blur(0px);
+}
+
+.line-6 {
+  opacity: 0.2 !important;
 }
 
 .line-6 {
