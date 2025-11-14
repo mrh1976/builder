@@ -97,7 +97,7 @@ Prividium is a private, programmable rollup framework built on the ZK Stack and 
 
 ### FEATURE 2: Customization
 
-**Heading:** Customizable. Your rules, your governance, your control.
+**Heading:** Customizable. Your rules, your governance, your control
 
 **Description:** Deploy a private rollup that reflects your organization's structure. Define who can transact, what's visible, and how validation works. You own the chain, its data, operations, and evolution.
 
@@ -105,7 +105,7 @@ Prividium is a private, programmable rollup framework built on the ZK Stack and 
 
 ### FEATURE 3: Security
 
-**Heading:** Security and trust. Anchored on Ethereum.
+**Heading:** Security and trust. Anchored on Ethereum
 
 **Description:** Each batch of transactions is verified by cryptographic proofs on Ethereum. You keep your data private while inheriting the most secure and decentralized validation layer on earth. No intermediaries, no blind trust, just math.
 
@@ -113,7 +113,7 @@ Prividium is a private, programmable rollup framework built on the ZK Stack and 
 
 ### FEATURE 4: Network
 
-**Heading:** No silos. Stay connected to the broader network.
+**Heading:** No silos. Stay connected to the broader network
 
 **Description:** Prividium chains interoperate through zkSync Connect, enabling atomic, compliant settlement across private and public systems. Operate privately while remaining part of the global blockchain economy.
 
@@ -137,7 +137,7 @@ How Prividium works
 
 ### STEP 1: Deploy
 
-**Heading:** Deploy your private rollup.
+**Heading:** Deploy your private rollup
 
 **Description:** Use the ZK Stack to launch a sovereign chain within your infrastructure.
 
@@ -145,7 +145,7 @@ How Prividium works
 
 ### STEP 2: Execute
 
-**Heading:** Execute privately.
+**Heading:** Execute privately
 
 **Description:** Transactions and data remain under your control.
 
@@ -153,7 +153,7 @@ How Prividium works
 
 ### STEP 3: Proofs
 
-**Heading:** Generate proofs.
+**Heading:** Generate proofs
 
 **Description:** Zero-knowledge cryptography privately verifies accuracy.
 
@@ -161,7 +161,7 @@ How Prividium works
 
 ### STEP 4: Ethereum
 
-**Heading:** Anchor to Ethereum.
+**Heading:** Anchor to Ethereum
 
 **Description:** Proofs are posted on Ethereum for public validation and final settlement.
 
@@ -169,7 +169,7 @@ How Prividium works
 
 ### STEP 5: Connect
 
-**Heading:** Connect globally.
+**Heading:** Connect globally
 
 **Description:** Optional interoperability with other Prividium and zkSync chains enables instant, compliant cross-chain activity.
 
