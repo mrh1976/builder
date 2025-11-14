@@ -1,6 +1,7 @@
 # PRIVIDIUM WEBSITE - COMPLETE TEXT CONTENT
 
 ## HEADER / NAVIGATION
+
 - Network
 - Products
 - Developers
@@ -12,19 +13,24 @@
 ## HERO SECTION
 
 ### Label
+
 ZKsync Prividium
 
 ### Main Heading
+
 Execute Privately,
 Verify Publicly
 
 ### Subheading
+
 Where public and private blockchains converge.
 
 ### Body Copy
+
 Operate with full privacy, compliance, and control — all while inheriting Ethereum's security and connectivity.
 
 ### Buttons
+
 - Download case study
 - Talk to our team
 
@@ -33,9 +39,11 @@ Operate with full privacy, compliance, and control — all while inheriting Ethe
 ## SELECT OBSERVERS SECTION
 
 ### Label
+
 Select Observers
 
 ### Company Logos
+
 - Mastercard
 - Deutsche Bank
 - State Street
@@ -70,9 +78,11 @@ Step 8: No more sacrificing on privacy, compliance, or trust.
 ## FEATURES SECTION
 
 ### Section Heading
+
 Prividium means no compromises
 
 ### Section Description
+
 Prividium is a private, programmable rollup framework built on the ZK Stack and secured by Ethereum. It lets institutions operate with full data privacy and regulatory control — while proofs of every transaction are verified publicly using zero-knowledge cryptography. You get the efficiency and security of blockchain, with the compliance and governance your business demands.
 
 ---
@@ -120,6 +130,7 @@ Prividium is a private, programmable rollup framework built on the ZK Stack and 
 ## HOW IT WORKS SECTION
 
 ### Section Heading
+
 How Prividium works
 
 ---
@@ -167,6 +178,7 @@ How Prividium works
 ## USE CASES SECTION
 
 ### Section Heading
+
 Prividium enables new use cases
 
 ---
@@ -234,9 +246,11 @@ Prividium enables new use cases
 ## FAQ SECTION
 
 ### Section Heading
+
 Frequently asked questions
 
 ### Section Subheading
+
 Everything you need to know about Prividium.
 
 ---
@@ -244,12 +258,15 @@ Everything you need to know about Prividium.
 ## CONTACT SECTION
 
 ### Heading
+
 Talk to an expert
 
 ### Description
+
 Deploy Prividium with confidence. Keep data private, stay compliant, and anchor to Ethereum for unmatched security.
 
 ### Form Fields
+
 - First and last name
 - E-mail
 - Company
@@ -262,6 +279,7 @@ Deploy Prividium with confidence. Keep data private, stay compliant, and anchor 
 ## FOOTER
 
 ### Products
+
 - Prividium
 - ZK Stack
 - ZKsync Connect
@@ -269,6 +287,7 @@ Deploy Prividium with confidence. Keep data private, stay compliant, and anchor 
 - solx
 
 ### Developers
+
 - ZKsync Prividium Docs
 - ZK Stack Docs
 - Airbender Docs
@@ -276,16 +295,19 @@ Deploy Prividium with confidence. Keep data private, stay compliant, and anchor 
 - Developer updates on X
 
 ### What's Happening
+
 - Blog
 - Community
 
 ### Social
+
 - X
 - LinkedIn
 - Discord
 - GitHub
 
 ### Footer Links
+
 - Terms of Service
 - Privacy Policy
 - Cookie Policy

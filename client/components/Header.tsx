@@ -121,7 +121,11 @@ export default function Header() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d={mobileMenuOpen ? "M5 5L19 19M5 19L19 5" : "M3 12H21M3 6H21M3 18H21"}
+              d={
+                mobileMenuOpen
+                  ? "M5 5L19 19M5 19L19 5"
+                  : "M3 12H21M3 6H21M3 18H21"
+              }
               stroke="#11141A"
               strokeWidth="2"
               strokeLinecap="round"
