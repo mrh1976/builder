@@ -82,55 +82,55 @@ export default function Index() {
       </section>
 
       {/* Select Observers Section - Reduced spacing */}
-      <section className="bg-white -mt-20 relative z-20 px-8 pb-16 pt-32">
+      <section className="bg-white -mt-20 relative z-20 px-4 md:px-8 pb-12 md:pb-16 pt-24 md:pt-32">
         <div className="max-w-[1280px] mx-auto">
-          <div className="bg-brand-gray rounded-[20px] p-[60px] flex flex-col items-start gap-10">
-            <p className="text-brand-blue text-base font-semibold">
+          <div className="bg-brand-gray rounded-xl md:rounded-[20px] p-6 md:p-12 lg:p-[60px] flex flex-col items-start gap-6 md:gap-10">
+            <p className="text-brand-blue text-sm md:text-base font-semibold">
               Select Observers
             </p>
-            <div className="w-full flex flex-col gap-20">
-              <div className="flex justify-between items-center flex-wrap gap-8">
+            <div className="w-full flex flex-col gap-8 md:gap-20">
+              <div className="flex justify-between items-center flex-wrap gap-6 md:gap-8">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/1d57f201315918e3763d4b4de42a950ee7d8258b?width=206"
                   alt="Mastercard"
-                  className="h-[79px] w-auto"
+                  className="h-[60px] md:h-[79px] w-auto"
                 />
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/aaff7a6f3c5310c76607b586d68859e6dfe79956?width=440"
                   alt="Deutsche Bank"
-                  className="h-[45px] w-auto"
+                  className="h-[35px] md:h-[45px] w-auto"
                 />
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/59dabdf0e9373f9b054008174039de3019ae85cf?width=314"
                   alt="State Street"
-                  className="h-[43px] w-auto"
+                  className="h-[32px] md:h-[43px] w-auto"
                 />
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/49f859e3e32d72d8a6971382330643fe39cb91fe?width=304"
                   alt="UOB"
-                  className="h-[43px] w-auto"
+                  className="h-[32px] md:h-[43px] w-auto"
                 />
               </div>
-              <div className="flex justify-between items-center flex-wrap gap-8">
+              <div className="flex justify-between items-center flex-wrap gap-6 md:gap-8">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/c8a1c76e530fce4f96ea364a36d25ee98be8df83?width=309"
                   alt="US Bank"
-                  className="h-[45px] w-auto"
+                  className="h-[35px] md:h-[45px] w-auto"
                 />
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/656c2ab6b1c2f1af6ab7ef6b1f7c3ced54f5024e?width=284"
                   alt="Fidelity International"
-                  className="h-[45px] w-auto"
+                  className="h-[35px] md:h-[45px] w-auto"
                 />
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/c4d1e17d3648ac93d32d13116d1550e9f8dbf15d?width=394"
                   alt="Banco Santander"
-                  className="h-[35px] w-auto"
+                  className="h-[28px] md:h-[35px] w-auto"
                 />
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/15a45bbc656da4eda266e33b5a0f933a375fcb50?width=402"
                   alt="Citi"
-                  className="h-[45px] w-auto"
+                  className="h-[35px] md:h-[45px] w-auto"
                 />
               </div>
             </div>
