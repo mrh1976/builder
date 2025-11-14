@@ -34,7 +34,7 @@ export default function Index() {
         <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-8 flex items-start md:items-center py-6 md:py-20 md:min-h-[600px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 w-full items-center">
             {/* Left side - Copy */}
-            <div className="flex flex-col space-y-6">
+            <div className="flex flex-col space-y-4 sm:space-y-6">
               <div>
                 <p className="text-brand-blue text-sm md:text-base font-semibold mb-3">
                   ZKsync Prividium
