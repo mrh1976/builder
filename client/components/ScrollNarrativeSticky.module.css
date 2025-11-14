@@ -39,10 +39,11 @@
 }
 
 .line:first-of-type {
+  filter: blur(0px) !important;
   opacity: 0.6;
 }
 
-.line:first-of-type {
+.scrollStep:not(.active) .line:first-of-type {
   filter: blur(8px) !important;
 }
 
