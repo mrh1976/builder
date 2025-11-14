@@ -82,7 +82,7 @@ export default function Index() {
       </section>
 
       {/* Select Observers Section - Reduced spacing */}
-      <section className="bg-white -mt-20 relative z-20 px-8 pb-16">
+      <section className="bg-white -mt-20 relative z-20 px-8 pb-16 pt-32">
         <div className="max-w-[1280px] mx-auto">
           <div className="bg-brand-gray rounded-[20px] p-[60px] flex flex-col items-start gap-10">
             <p className="text-brand-blue text-base font-semibold">
