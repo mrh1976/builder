@@ -54,16 +54,6 @@
   filter: blur(0px);
 }
 
-.scrollStep.active .line-6 {
-  opacity: 1 !important;
-  transform: translateY(0) scale(1);
-  filter: blur(0px);
-}
-
-.line-6 {
-  opacity: 0.2 !important;
-}
-
 .line-6 {
   font-weight: 800;
   font-size: clamp(2.8rem, 5.4vw, 4.6rem);
@@ -74,6 +64,12 @@
               filter 0.25s ease-out;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.scrollStep.active .line-6 {
+  opacity: 1 !important;
+  transform: translateY(0) scale(1);
+  filter: blur(0px);
 }
 
 .scrollStepPin {
