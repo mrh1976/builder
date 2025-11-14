@@ -31,7 +31,7 @@ export default function Index() {
       {/* Hero Section */}
       <section className="relative pt-[72px] overflow-visible">
         <div className="absolute inset-0 bg-gradient-to-b from-[#E8F4FF] via-[#F0F8FF] to-white" />
-        <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-8 flex items-start md:items-center py-6 md:py-20 md:min-h-[600px]">
+        <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-8 flex items-start md:items-center py-6 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 w-full items-center">
             {/* Left side - Copy */}
             <div className="flex flex-col space-y-3 sm:space-y-6">
