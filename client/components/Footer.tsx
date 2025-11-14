@@ -165,22 +165,78 @@ export default function Footer() {
                     className="text-brand-dark text-base hover:underline inline-flex items-center gap-1"
                   >
                     ZK Stack Docs{" "}
-                    <svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    Airbender Docs{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    Airbender Docs{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    GitHub Discussions{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    GitHub Discussions{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    Developer updates on X{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    Developer updates on X{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -192,13 +248,43 @@ export default function Footer() {
               </h3>
               <ul className="space-y-2 md:space-y-4">
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    Blog{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    Blog{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    Community{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    Community{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -210,23 +296,83 @@ export default function Footer() {
               </h3>
               <ul className="space-y-2 md:space-y-4">
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    X{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    X{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    LinkedIn{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    LinkedIn{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    Discord{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    Discord{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1">
-                    GitHub{" "}<svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z" fill="#11141A" /></svg>
+                  <a
+                    href="#"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
+                  >
+                    GitHub{" "}
+                    <svg
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.2 7.17969L0.5 6.47969L5.3 1.67969H1V0.679688H7V6.67969H6V2.37969L1.2 7.17969Z"
+                        fill="#11141A"
+                      />
+                    </svg>
                   </a>
                 </li>
               </ul>

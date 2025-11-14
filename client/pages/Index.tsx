@@ -376,7 +376,10 @@ export default function Index() {
             </h2>
           </ScrollReveal>
           <div className="flex gap-6 md:gap-8 lg:gap-12 flex-col lg:flex-row">
-            <ScrollReveal delay={200} className="lg:flex-1 space-y-8 md:space-y-12">
+            <ScrollReveal
+              delay={200}
+              className="lg:flex-1 space-y-8 md:space-y-12"
+            >
               <div className="space-y-2">
                 <h3 className="text-2xl md:text-3xl font-semibold text-black leading-9">
                   Deploy your private rollup.
