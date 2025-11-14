@@ -14,7 +14,6 @@ interface ScrollNarrativeStickyProps {
 export default function ScrollNarrativeSticky({
   steps,
 }: ScrollNarrativeStickyProps) {
-  const scaleLineRef = useRef<HTMLDivElement>(null);
   const scrollStepRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
