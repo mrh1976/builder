@@ -208,7 +208,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed top-[72px] left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+        <div className="md:hidden fixed top-20 md:top-[72px] left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200">
           <nav className="flex flex-col px-4 py-4 space-y-1">
             {["Network", "Products", "Developers", "Discover"].map((item) => (
               <button
