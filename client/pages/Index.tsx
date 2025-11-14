@@ -185,7 +185,7 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section className="relative bg-brand-gray py-24 px-8 overflow-hidden">
+      <section className="relative bg-brand-gray py-16 md:py-24 px-4 md:px-8 overflow-hidden">
         <svg
           className="absolute left-0 bottom-0 w-[625px] h-[761px] opacity-50"
           viewBox="0 0 761 625"
@@ -237,11 +237,11 @@ export default function Index() {
 
         <div className="relative z-10 max-w-[1280px] mx-auto">
           <ScrollReveal>
-            <div className="text-center mb-16">
-              <h2 className="text-5xl font-semibold text-black mb-4 tracking-tight">
+            <div className="text-center mb-12 md:mb-16">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black mb-4 tracking-tight">
                 Prividium means no compromises
               </h2>
-              <p className="text-lg text-black max-w-[941px] mx-auto leading-7">
+              <p className="text-sm md:text-base lg:text-lg text-black max-w-[941px] mx-auto leading-7">
                 Prividium is a private, programmable rollup framework built on
                 the ZK Stack and secured by Ethereum. It lets institutions
                 operate with full data privacy and regulatory control — while
@@ -253,7 +253,7 @@ export default function Index() {
             </div>
           </ScrollReveal>
 
-          <div className="max-w-[1280px] grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12">
+          <div className="max-w-[1280px] grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-x-12 lg:gap-y-12">
             <ScrollReveal delay={200}>
               <div className="flex flex-col items-center gap-6 text-center">
                 <img
