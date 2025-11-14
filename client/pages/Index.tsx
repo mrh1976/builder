@@ -11,9 +11,9 @@ export default function Index() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-[72px] min-h-[800px] overflow-hidden">
+      <section className="relative pt-[72px] overflow-visible">
         <div className="absolute inset-0 bg-gradient-to-b from-[#E8F4FF] via-[#F0F8FF] to-white" />
-        <div className="relative z-10 max-w-[1280px] mx-auto px-8 h-full flex items-center py-20">
+        <div className="relative z-10 max-w-[1280px] mx-auto px-8 flex items-center py-20 min-h-[600px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full items-center">
             {/* Left side - Copy */}
             <div className="flex flex-col space-y-6">
@@ -62,13 +62,15 @@ export default function Index() {
             </div>
 
             {/* Right side - Animation */}
-            <div className="flex items-center justify-center lg:justify-end">
-              <Lottie
-                animationData={heroAnimation}
-                loop={true}
-                autoplay={true}
-                style={{ width: "100%", maxWidth: "500px", height: "auto" }}
-              />
+            <div className="flex items-center justify-center lg:justify-end h-full min-h-[600px]">
+              <div className="w-full max-w-[500px]">
+                <Lottie
+                  animationData={heroAnimation}
+                  loop={true}
+                  autoplay={true}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
             </div>
           </div>
         </div>
