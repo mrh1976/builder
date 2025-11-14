@@ -34,25 +34,28 @@ export default function Index() {
         <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-8 flex items-start md:items-center py-6 md:py-20 md:min-h-[600px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 w-full items-center">
             {/* Left side - Copy */}
-            <div className="flex flex-col space-y-4 sm:space-y-6">
-              <div>
-                <p className="text-brand-blue text-sm md:text-base font-semibold mb-3">
+            <div className="flex flex-col space-y-3 sm:space-y-6">
+              <div className="space-y-2">
+                <p className="text-brand-blue text-sm md:text-base font-semibold">
                   ZKsync Prividium
                 </p>
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black leading-tight mb-4">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black leading-tight">
                   Execute Privately,
                   <br />
                   Verify Publicly
                 </h1>
+              </div>
+
+              <div className="space-y-3">
                 <p className="text-base md:text-lg text-black max-w-xl">
                   Where public and private blockchains converge.
                 </p>
-              </div>
 
-              <p className="text-sm md:text-base text-brand-dark-text leading-7 max-w-xl">
-                Operate with full privacy, compliance, and control — all while
-                inheriting Ethereum's security and connectivity.
-              </p>
+                <p className="text-sm md:text-base text-brand-dark-text leading-7 max-w-xl">
+                  Operate with full privacy, compliance, and control — all while
+                  inheriting Ethereum's security and connectivity.
+                </p>
+              </div>
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-3 md:gap-4 pt-2 sm:pt-4 w-full">
                 <button className="relative flex items-center justify-center gap-2 px-6 py-2.5 sm:py-3 rounded-full bg-brand-blue text-white font-semibold text-sm md:text-base overflow-hidden hover:bg-brand-blue/90 transition-colors shadow-lg sm:w-auto w-full">
