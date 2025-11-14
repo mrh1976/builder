@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
-import SplitTextReveal from "@/components/SplitTextReveal";
 import ScrollNarrativeSticky from "@/components/ScrollNarrativeSticky";
 import { useEffect } from "react";
 
