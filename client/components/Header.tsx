@@ -108,10 +108,32 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Contact Button */}
+        {/* Hamburger Menu Button - Mobile */}
+        <button
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          className="md:hidden flex items-center justify-center w-10 h-10"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d={mobileMenuOpen ? "M5 5L19 19M5 19L19 5" : "M3 12H21M3 6H21M3 18H21"}
+              stroke="#11141A"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+
+        {/* Contact Button - Desktop */}
         <a
           href="#contact"
-          className="relative flex items-center justify-center h-10 md:h-12 px-4 md:w-32 rounded-full bg-brand-blue text-white text-sm md:text-base font-semibold overflow-hidden shadow-[0_0_0_1px_rgba(10,13,18,0.18)_inset,0_-2px_0_0_rgba(10,13,18,0.05)_inset,0_1px_2px_0_rgba(10,13,18,0.05)] hover:bg-brand-blue/90 transition-all duration-200 flex-shrink-0"
+          className="hidden md:relative md:flex items-center justify-center h-10 md:h-12 px-4 md:w-32 rounded-full bg-brand-blue text-white text-sm md:text-base font-semibold overflow-hidden shadow-[0_0_0_1px_rgba(10,13,18,0.18)_inset,0_-2px_0_0_rgba(10,13,18,0.05)_inset,0_1px_2px_0_rgba(10,13,18,0.05)] hover:bg-brand-blue/90 transition-all duration-200 flex-shrink-0"
         >
           {/* Gradient animation - hidden on mobile */}
           <div className="hidden md:block absolute left-0 bottom-0 w-8 h-8">
@@ -183,6 +205,30 @@ export default function Header() {
           <span className="relative z-10">Contact us</span>
         </a>
       </div>
+
+      {/* Mobile Menu */}
+      {mobileMenuOpen && (
+        <div className="md:hidden fixed top-[72px] left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+          <nav className="flex flex-col px-4 py-4 space-y-1">
+            {["Network", "Products", "Developers", "Discover"].map((item) => (
+              <button
+                key={item}
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-left px-4 py-3 text-[#262B33] text-base font-medium hover:bg-gray-100 rounded-lg transition-colors"
+              >
+                {item}
+              </button>
+            ))}
+            <a
+              href="#contact"
+              onClick={() => setMobileMenuOpen(false)}
+              className="text-left px-4 py-3 text-brand-blue text-base font-semibold hover:bg-gray-100 rounded-lg transition-colors"
+            >
+              Contact us
+            </a>
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
