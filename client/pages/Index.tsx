@@ -347,15 +347,27 @@ export default function Index() {
                 </div>
               </div>
             </ScrollReveal>
-          </div>
 
-          <ScrollReveal delay={1000} className="flex justify-center mt-16">
-            <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/334d584e01f94999816740476cc847dbf1dc0176?width=1088"
-              alt="Diagram"
-              className="w-full max-w-[544px] h-auto"
-            />
-          </ScrollReveal>
+            <ScrollReveal delay={1000}>
+              <div className="flex flex-col items-center gap-6 text-center">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/334d584e01f94999816740476cc847dbf1dc0176?width=192"
+                  alt="Business Impact icon"
+                  className="w-24 h-24"
+                />
+                <div className="space-y-3">
+                  <h3 className="text-2xl font-semibold text-black leading-8">
+                    Real Business Impact. Faster, Less Expensive, More Transparent
+                  </h3>
+                  <p className="text-sm text-black leading-6">
+                    Automate settlement and reconciliation. Lower operational cost and
+                    counterparty risk. Provide near-time, provable transparency to auditors
+                    and regulators. All without exposing internal data.
+                  </p>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
         </div>
       </section>
 
