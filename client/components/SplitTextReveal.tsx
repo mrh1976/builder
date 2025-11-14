@@ -54,8 +54,9 @@ export default function SplitTextReveal({
           style={{
             opacity: index < visibleWords ? 1 : 0.2,
             transition: "opacity 0.3s ease-in",
-            display: "inline",
+            display: "inline-block",
             marginRight: "0.35em",
+            whiteSpace: "nowrap",
           }}
         >
           {word}
