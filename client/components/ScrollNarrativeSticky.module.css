@@ -36,6 +36,10 @@
   transform: translateY(0);
 }
 
+.scrollStep.active .line-6 {
+  transform: translateY(0);
+}
+
 .line-6 {
   font-weight: 800;
   font-size: clamp(2.8rem, 5.4vw, 4.6rem);
