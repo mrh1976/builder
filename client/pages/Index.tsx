@@ -269,7 +269,7 @@ export default function Index() {
                     Prividium was built for regulated environments. Every layer,
                     from execution to access, supports permissioning, audit
                     logs, and KYC/KYB enforcement. It's compliance by design,
-                    not afterthought.
+                    not an afterthought.
                   </p>
                 </div>
               </div>
