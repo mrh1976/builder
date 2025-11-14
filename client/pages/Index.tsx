@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import Lottie from "lottie-react";
-import heroAnimation from "../../public/hero-animation.json";
+import heroAnimation from "@/hero-animation.json";
 
 export default function Index() {
   return (
