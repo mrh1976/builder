@@ -300,7 +300,7 @@ export default function Index() {
                 />
                 <div className="space-y-3">
                   <h3 className="text-2xl font-semibold text-black leading-8">
-                    Customizable. Your rules, your governance, your control.
+                    Customizable. Your rules, your governance, your control
                   </h3>
                   <p className="text-sm text-black leading-6">
                     Deploy a private rollup that reflects your organization's
@@ -321,7 +321,7 @@ export default function Index() {
                 />
                 <div className="space-y-3">
                   <h3 className="text-2xl font-semibold text-black leading-8">
-                    Security and trust. Anchored on Ethereum.
+                    Security and trust. Anchored on Ethereum
                   </h3>
                   <p className="text-sm text-black leading-6">
                     Each batch of transactions is verified by cryptographic
@@ -343,7 +343,7 @@ export default function Index() {
                 />
                 <div className="space-y-3">
                   <h3 className="text-2xl font-semibold text-black leading-8">
-                    No silos. Stay connected to the broader network.
+                    No silos. Stay connected to the broader network
                   </h3>
                   <p className="text-sm text-black leading-6">
                     Prividium chains interoperate through zkSync Connect,
@@ -398,7 +398,7 @@ export default function Index() {
             >
               <div className="space-y-2">
                 <h3 className="text-2xl md:text-3xl font-semibold text-black leading-9">
-                  Deploy your private rollup.
+                  Deploy your private rollup
                 </h3>
                 <p className="text-sm md:text-base text-black leading-6">
                   Use the ZK Stack to launch a sovereign chain within your
@@ -407,7 +407,7 @@ export default function Index() {
               </div>
               <div className="space-y-2">
                 <h3 className="text-2xl md:text-3xl font-semibold text-black leading-9">
-                  Execute privately.
+                  Execute privately
                 </h3>
                 <p className="text-sm md:text-base text-black leading-6">
                   Transactions and data remain under your control.
@@ -415,7 +415,7 @@ export default function Index() {
               </div>
               <div className="space-y-2">
                 <h3 className="text-2xl md:text-3xl font-semibold text-black leading-9">
-                  Generate proofs.
+                  Generate proofs
                 </h3>
                 <p className="text-sm md:text-base text-black leading-6">
                   Zero-knowledge cryptography privately verifies accuracy.
@@ -423,7 +423,7 @@ export default function Index() {
               </div>
               <div className="space-y-2">
                 <h3 className="text-2xl md:text-3xl font-semibold text-black leading-9">
-                  Anchor to Ethereum.
+                  Anchor to Ethereum
                 </h3>
                 <p className="text-sm md:text-base text-black leading-6">
                   Proofs are posted on Ethereum for public validation and final
@@ -432,7 +432,7 @@ export default function Index() {
               </div>
               <div className="space-y-2">
                 <h3 className="text-2xl md:text-3xl font-semibold text-black leading-9">
-                  Connect globally.
+                  Connect globally
                 </h3>
                 <p className="text-sm md:text-base text-black leading-6">
                   Optional interoperability with other Prividium and zkSync
