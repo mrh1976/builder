@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import SplitTextReveal from "@/components/SplitTextReveal";
 import ScrollNarrative from "@/components/ScrollNarrative";
+import HighlightedNarrativeLine from "@/components/HighlightedNarrativeLine";
 import { useEffect } from "react";
 
 export default function Index() {
