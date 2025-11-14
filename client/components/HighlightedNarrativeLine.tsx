@@ -20,9 +20,7 @@ export default function HighlightedNarrativeLine({
   const [scrollProgress, setScrollProgress] = useState(0);
 
   useEffect(() => {
-    if (inView) {
-      setIsVisible(true);
-    }
+    setIsVisible(inView);
   }, [inView]);
 
   useEffect(() => {
