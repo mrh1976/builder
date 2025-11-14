@@ -18,7 +18,7 @@ export default function ScrollNarrativeSticky({
 
   useEffect(() => {
     const stepElements = scrollStepRefs.current.filter(
-      Boolean,
+      (el) => el !== null,
     ) as HTMLDivElement[];
 
     const stepObserver = new IntersectionObserver(
