@@ -157,7 +157,7 @@ export default function Index() {
       {/* Story Section - Sticky Scroll Narrative */}
       <section className="py-12 md:py-20 relative">
         {/* Sticky Scroll Indicator Arrow */}
-        <div className="fixed right-8 top-1/2 transform -translate-y-1/2 z-40 pointer-events-none animate-bounce">
+        <div className="sticky right-8 top-1/2 transform -translate-y-1/2 z-40 pointer-events-none animate-bounce h-0 overflow-visible">
           <svg
             width="48"
             height="48"
