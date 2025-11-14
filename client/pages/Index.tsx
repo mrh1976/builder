@@ -62,13 +62,13 @@ export default function Index() {
             </div>
 
             {/* Right side - Animation */}
-            <div className="flex items-center justify-center lg:justify-end h-full min-h-[600px]">
-              <div className="w-full max-w-[500px]">
+            <div className="flex items-center justify-center lg:justify-end">
+              <div className="w-full max-w-[500px] aspect-[540/440]">
                 <Lottie
                   animationData={heroAnimation}
                   loop={true}
                   autoplay={true}
-                  style={{ width: "100%", height: "auto" }}
+                  style={{ width: "100%", height: "100%" }}
                 />
               </div>
             </div>
