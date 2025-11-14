@@ -243,6 +243,28 @@ Prividium enables new use cases
 
 ---
 
+## RESEARCH & CASE STUDIES SECTION
+
+### Section Heading
+
+Research & case studies
+
+### Case Study 1
+
+**Title:** Beyond public vs. private chains: The Prividium breakthrough
+
+**CTA Link:** Download
+
+---
+
+### Case Study 2
+
+**Title:** Memento ZK Chain: Creating the future of onchain fund management
+
+**CTA Link:** Download
+
+---
+
 ## FAQ SECTION
 
 ### Section Heading
