@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-gray py-20 px-8">
+    <footer className="bg-brand-gray py-12 md:py-20 px-4 md:px-8">
       <div className="max-w-[1280px] mx-auto">
-        <div className="flex gap-20 mb-20">
+        <div className="flex gap-8 md:gap-20 mb-12 md:mb-20 flex-col md:flex-row">
           <div className="w-[170px]">
             <Link
               to="/"
-              className="flex items-center justify-center w-[130px] h-8 mb-8"
+              className="flex items-center justify-center w-[100px] md:w-[130px] h-6 md:h-8 mb-6 md:mb-8"
             >
               <svg
                 width="130"
