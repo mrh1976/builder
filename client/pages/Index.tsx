@@ -70,14 +70,12 @@ export default function Index() {
 
             {/* Right side - Animation */}
             <div className="flex items-center justify-center lg:justify-end lg:w-full">
-              <div className="w-full lg:w-auto lg:min-w-[600px]">
-                <dotlottie-wc
-                  src="https://lottie.host/e3f24856-4857-406f-881c-7d84361ccd6d/0ZsEdiWHTz.lottie"
-                  autoplay
-                  loop
-                  style={{ width: "100%", height: "auto" }}
-                />
-              </div>
+              <div
+                className="w-full lg:w-auto lg:min-w-[600px]"
+                dangerouslySetInnerHTML={{
+                  __html: `<dotlottie-wc src="https://lottie.host/e3f24856-4857-406f-881c-7d84361ccd6d/0ZsEdiWHTz.lottie" autoplay loop style="width: 100%; height: auto;"></dotlottie-wc>`
+                }}
+              />
             </div>
           </div>
         </div>
