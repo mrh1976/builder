@@ -121,7 +121,7 @@ Prividium is a private, programmable rollup framework built on the ZK Stack and 
 
 ### FEATURE 5: Business Impact
 
-**Heading:** Real Business Impact. Faster, Less Expensive, More Transparent
+**Heading:** Real business impact. Faster, less expensive, more transparent
 
 **Description:** Automate settlement and reconciliation. Lower operational cost and counterparty risk. Provide near real-time, provable transparency to auditors and regulators. All without exposing internal data.
 
