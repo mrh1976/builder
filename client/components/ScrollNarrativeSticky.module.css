@@ -59,6 +59,16 @@
   filter: blur(0px);
 }
 
+.line-6 {
+  --scale: 1;
+  transform: translateY(30px) scale(var(--scale, 1)) !important;
+  transition: transform 0.05s linear;
+}
+
+.scrollStep.active .line-6 {
+  transform: translateY(0) scale(var(--scale, 1)) !important;
+}
+
 .scrollStepPin {
   position: relative;
   height: 140vh;
