@@ -55,13 +55,14 @@ export default function ScrollNarrativeSticky({
       const rect = pinStep.getBoundingClientRect();
       const winH = window.innerHeight;
 
-      if (rect.top > winH || rect.bottom < 0) {
+      // Allow scaling to continue even as next step comes into view
+      if (rect.top > winH * 1.5) {
         scaleLineRef.current.style.transform = "scale(1)";
         return;
       }
 
       const start = winH * 0.15;
-      const end = winH * 0.85;
+      const end = winH * 1.5;
 
       const centerY = winH / 2;
       const relative = centerY - rect.top;
@@ -69,7 +70,7 @@ export default function ScrollNarrativeSticky({
       progress = Math.min(Math.max(progress, 0), 1);
 
       const minScale = 1;
-      const maxScale = 1.5;
+      const maxScale = 1.8;
       const scale = minScale + (maxScale - minScale) * Math.pow(progress, 1.2);
 
       scaleLineRef.current.style.transform = `scale(${scale})`;
