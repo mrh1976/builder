@@ -4,7 +4,7 @@
 
 .scrollStep {
   position: relative;
-  height: 240vh;
+  height: 200vh;
   padding: 0 8vw;
 }
 
@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  will-change: transform;
 }
 
 .line {
@@ -22,22 +23,28 @@
   font-weight: 700;
   font-size: clamp(2rem, 4vw, 3.2rem);
   line-height: 1.27;
-  opacity: 0.85;
+  opacity: 0.3;
   color: #070ea0;
-  transform: translateY(25px);
-  transition: opacity 0.85s ease-out, transform 0.85s ease-out;
+  transform: translateY(30px) scale(0.95);
+  transition: opacity 0.6s cubic-bezier(0.34, 1.56, 0.64, 1),
+              transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1),
+              filter 0.6s ease-out;
   margin: 0;
   padding: 0;
   font-family: "Inter", system-ui, -apple-system, sans-serif;
+  filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 .scrollStep.active .line {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
+  filter: blur(0px);
 }
 
 .scrollStep.active .line-6 {
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
+  filter: blur(0px);
 }
 
 .line-6 {
@@ -45,9 +52,17 @@
   font-size: clamp(2.8rem, 5.4vw, 4.6rem);
   letter-spacing: -0.012em;
   transform-origin: center;
-  transition: opacity 0.55s ease-out, transform 0.25s ease-out;
+  transition: opacity 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+              transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+              filter 0.5s ease-out,
+              text-shadow 0.5s ease-out;
+  text-shadow: 0 0 0 rgba(7, 14, 160, 0);
+}
+
+.scrollStep.active .line-6 {
+  text-shadow: 0 0 20px rgba(7, 14, 160, 0.2);
 }
 
 .scrollStepPin {
-  /* pinned step styling */
+  position: relative;
 }
