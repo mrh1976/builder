@@ -349,11 +349,11 @@ export default function Index() {
             </ScrollReveal>
 
             <ScrollReveal delay={1000} className="md:col-span-2 flex justify-center">
-              <div className="flex flex-col items-center gap-6 text-center max-w-sm">
+              <div className="flex flex-col items-center gap-6 text-center">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F5031849ff5814a4cae6f958ac9f10229%2F77a27fc3592d45b888d338d927a5f575?format=webp&width=192"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F5031849ff5814a4cae6f958ac9f10229%2F77a27fc3592d45b888d338d927a5f575?format=webp&width=300"
                   alt="Business Impact icon"
-                  className="w-24 h-24"
+                  className="w-auto h-24"
                 />
                 <div className="space-y-3">
                   <h3 className="text-2xl font-semibold text-black leading-8">
