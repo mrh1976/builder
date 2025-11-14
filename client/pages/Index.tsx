@@ -642,6 +642,77 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Research & Case Studies Section */}
+      <section className="relative py-16 md:py-24 px-4 md:px-8 overflow-hidden bg-white">
+        <div className="relative z-10 max-w-[1280px] mx-auto">
+          <ScrollReveal>
+            <div className="mb-12 md:mb-16">
+              <div className="flex items-center justify-between mb-8">
+                <h2 className="text-3xl md:text-4xl font-semibold text-brand-dark-text tracking-tight">
+                  Research & case studies
+                </h2>
+                <div className="flex gap-4">
+                  <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors" aria-label="Previous">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15 18L9 12L15 6" stroke="#11141A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </button>
+                  <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors" aria-label="Next">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 18L15 12L9 6" stroke="#11141A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <div className="flex gap-4 items-start">
+                  <div className="flex-shrink-0 w-24 h-24 bg-brand-dark rounded-lg overflow-hidden flex items-center justify-center">
+                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="80" height="80" fill="#0A0D12" />
+                      <path d="M20 40L40 25L60 40V55H20V40Z" fill="#5C6CEC" opacity="0.3" />
+                      <circle cx="40" cy="30" r="3" fill="#5C6CEC" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold text-black mb-2">
+                      Beyond public vs. private chains: The Prividium breakthrough
+                    </h3>
+                    <a href="#" className="text-brand-blue text-sm font-semibold inline-flex items-center gap-1 hover:underline">
+                      Download
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 2V11M8 11L5 8M8 11L11 8M2 14H14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex gap-4 items-start">
+                  <div className="flex-shrink-0 w-24 h-24 bg-brand-dark rounded-lg overflow-hidden flex items-center justify-center">
+                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="80" height="80" fill="#0A0D12" />
+                      <path d="M20 50L40 25L60 50V58H20V50Z" fill="#5C6CEC" opacity="0.3" />
+                      <circle cx="40" cy="28" r="3" fill="#5C6CEC" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold text-black mb-2">
+                      Memento ZK Chain: Creating the future of onchain fund management
+                    </h3>
+                    <a href="#" className="text-brand-blue text-sm font-semibold inline-flex items-center gap-1 hover:underline">
+                      Download
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 2V11M8 11L5 8M8 11L11 8M2 14H14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="relative py-16 md:py-24 px-4 md:px-8 overflow-hidden">
         <svg
