@@ -36,7 +36,7 @@ export default function Index() {
             {/* Left side - Copy */}
             <div className="flex flex-col space-y-3 sm:space-y-6">
               <div className="space-y-2">
-                <p className="text-brand-blue text-sm md:text-base font-semibold">
+                <p className="text-brand-blue text-xs md:text-sm font-semibold uppercase tracking-widest">
                   ZKsync Prividium
                 </p>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black leading-tight">
