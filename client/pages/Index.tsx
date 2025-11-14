@@ -52,7 +52,7 @@ export default function Index() {
                 </p>
 
                 <p className="text-sm md:text-base text-brand-dark-text leading-7 max-w-xl">
-                  Operate with full privacy, compliance, and control — all while
+                  Operate with full privacy, compliance, and control - all while
                   inheriting Ethereum's security and connectivity.
                 </p>
               </div>
@@ -260,7 +260,7 @@ export default function Index() {
               <p className="text-sm md:text-base lg:text-lg text-black max-w-[941px] mx-auto leading-7">
                 Prividium is a private, programmable rollup framework built on
                 the ZK Stack and secured by Ethereum. It lets institutions
-                operate with full data privacy and regulatory control — while
+                operate with full data privacy and regulatory control - while
                 proofs of every transaction are verified publicly using
                 zero-knowledge cryptography. You get the efficiency and security
                 of blockchain, with the compliance and governance your business
@@ -479,7 +479,7 @@ export default function Index() {
                   Cross-border settlement without exposure
                 </h3>
                 <p className="text-sm md:text-base text-black leading-6">
-                  Move value across jurisdictions in seconds — with programmable
+                  Move value across jurisdictions in seconds - with programmable
                   compliance baked in. Each transaction executes privately
                   within your governance framework, while zero-knowledge proofs
                   ensure global verification and regulatory confidence.{" "}
@@ -514,7 +514,7 @@ export default function Index() {
                   redemption and reporting, all verifiable on Ethereum.{" "}
                   <strong>Outcome:</strong> instant distribution, automated
                   compliance, and complete visibility for auditors and investors
-                  — without public exposure.
+                  - without public exposure.
                 </p>
                 <a
                   href="#"

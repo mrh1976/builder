@@ -27,7 +27,7 @@ Where public and private blockchains converge.
 
 ### Body Copy
 
-Operate with full privacy, compliance, and control — all while inheriting Ethereum's security and connectivity.
+Operate with full privacy, compliance, and control - all while inheriting Ethereum's security and connectivity.
 
 ### Buttons
 
