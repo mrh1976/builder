@@ -22,9 +22,7 @@ export default function ScrollNarrative({
   const [gradientOffset, setGradientOffset] = useState(0);
 
   useEffect(() => {
-    if (inView) {
-      setIsVisible(true);
-    }
+    setIsVisible(inView);
   }, [inView]);
 
   useEffect(() => {
