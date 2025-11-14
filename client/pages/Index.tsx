@@ -73,7 +73,7 @@ export default function Index() {
                     />
                   </svg>
                 </button>
-                <button className="px-6 py-3 rounded-full bg-white text-black font-semibold text-sm md:text-base border border-gray-300 hover:bg-gray-50 transition-colors">
+                <button className="px-6 py-3 rounded-full bg-white text-black font-semibold text-sm md:text-base border border-gray-300 hover:bg-gray-50 transition-colors sm:w-auto w-full">
                   Talk to our team
                 </button>
               </div>
