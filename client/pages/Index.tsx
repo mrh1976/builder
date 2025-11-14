@@ -54,8 +54,8 @@ export default function Index() {
                 inheriting Ethereum's security and connectivity.
               </p>
 
-              <div className="flex flex-col sm:flex-row flex-wrap gap-3 md:gap-4 pt-4">
-                <button className="relative flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-brand-blue text-white font-semibold text-sm md:text-base overflow-hidden hover:bg-brand-blue/90 transition-colors shadow-lg">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-3 md:gap-4 pt-4 w-full">
+                <button className="relative flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-brand-blue text-white font-semibold text-sm md:text-base overflow-hidden hover:bg-brand-blue/90 transition-colors shadow-lg sm:w-auto w-full">
                   <span>Download case study</span>
                   <svg
                     width="20"
