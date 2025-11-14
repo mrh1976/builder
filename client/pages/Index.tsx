@@ -5,12 +5,23 @@ import ScrollNarrativeSticky from "@/components/ScrollNarrativeSticky";
 import { useEffect, useState } from "react";
 
 export default function Index() {
+  const [isMobile, setIsMobile] = useState(false);
+
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
       "https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js";
     script.type = "module";
     document.head.appendChild(script);
+  }, []);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
   return (
