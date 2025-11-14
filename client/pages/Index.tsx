@@ -635,18 +635,18 @@ export default function Index() {
 
           <ScrollReveal
             delay={200}
-            className="flex gap-12 items-start flex-col lg:flex-row"
+            className="flex gap-16 items-stretch flex-col lg:flex-row"
           >
-            <div className="w-full lg:w-auto lg:min-w-[412px] space-y-3">
-              <h2 className="text-4xl font-semibold text-brand-blue leading-[60px]">
+            <div className="w-full lg:w-1/3 space-y-4 flex flex-col justify-center">
+              <h2 className="text-4xl font-semibold text-brand-dark leading-[52px]">
                 Talk to an expert
               </h2>
-              <p className="text-sm text-brand-blue leading-6">
+              <p className="text-base text-brand-dark-text leading-7">
                 Deploy Prividium with confidence. Keep data private, stay
                 compliant, and anchor to Ethereum for unmatched security.
               </p>
             </div>
-            <div className="flex-1 bg-white rounded-xl p-8 shadow-sm">
+            <div className="w-full lg:w-2/3 bg-white rounded-2xl p-10 shadow-lg border border-gray-100">
               <form className="space-y-4">
                 <div>
                   <input
