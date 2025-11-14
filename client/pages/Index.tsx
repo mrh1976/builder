@@ -433,19 +433,19 @@ export default function Index() {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-24 px-8">
+      <section className="py-16 md:py-24 px-4 md:px-8">
         <div className="max-w-[1280px] mx-auto">
-          <ScrollReveal className="text-center mb-16">
-            <h2 className="text-5xl font-semibold text-black tracking-tight">
+          <ScrollReveal className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black tracking-tight">
               Prividium enables new use cases
             </h2>
           </ScrollReveal>
-          <div className="space-y-20">
+          <div className="space-y-12 md:space-y-20">
             <ScrollReveal
               delay={200}
-              className="flex gap-5 items-center flex-col lg:flex-row"
+              className="flex gap-4 md:gap-5 items-center flex-col lg:flex-row"
             >
-              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[400px]">
+              <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[300px] md:min-h-[400px]">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/04d592bd699b169e7896c626d8dd13d7704e6ddb?width=1260"
                   alt="Cross-border settlement"
@@ -453,13 +453,13 @@ export default function Index() {
                 />
               </div>
               <div className="w-full lg:w-1/2 space-y-3">
-                <p className="text-brand-blue text-xs font-semibold">
+                <p className="text-brand-blue text-xs md:text-sm font-semibold">
                   Faster, compliant global payments
                 </p>
-                <h3 className="text-3xl font-semibold text-black leading-9">
+                <h3 className="text-2xl md:text-3xl font-semibold text-black leading-9">
                   Cross-border settlement without exposure
                 </h3>
-                <p className="text-sm text-black leading-6">
+                <p className="text-sm md:text-base text-black leading-6">
                   Move value across jurisdictions in seconds — with programmable
                   compliance baked in. Each transaction executes privately
                   within your governance framework, while zero-knowledge proofs
