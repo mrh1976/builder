@@ -155,28 +155,31 @@ export default function Index() {
       </section>
 
       {/* Story Section - Sticky Scroll Narrative */}
-      <section className="py-12 md:py-20 relative">
-        {/* Sticky Scroll Indicator Arrow */}
-        <div className="sticky right-8 top-1/2 transform -translate-y-1/2 z-40 pointer-events-none animate-bounce h-0 overflow-visible">
-          <svg
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="text-brand-blue"
-          >
-            <path
-              d="M12 5V19M12 19L18 13M12 19L6 13"
-              stroke="currentColor"
-              strokeWidth="3"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+      <section className="py-12 md:py-20 relative px-4 md:px-8">
+        <div className="max-w-[1280px] mx-auto relative">
+          {/* Sticky Scroll Indicator Arrow */}
+          <div className="sticky top-1/2 transform -translate-y-1/2 z-40 pointer-events-none animate-bounce">
+            <div className="absolute -right-12 md:-right-16 w-12 h-12 flex items-center justify-center">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="text-brand-blue"
+              >
+                <path
+                  d="M12 5V19M12 19L18 13M12 19L6 13"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
 
-        <ScrollNarrativeSticky
+          <ScrollNarrativeSticky
           steps={[
             {
               text: "Institutions see the potential of blockchain.",
@@ -214,6 +217,7 @@ export default function Index() {
             },
           ]}
         />
+        </div>
       </section>
 
       {/* Features Section */}
