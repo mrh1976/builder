@@ -82,7 +82,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-brand-dark text-base hover:underline"
+                    className="text-brand-dark text-sm md:text-base hover:underline"
                   >
                     Prividium
                   </a>
@@ -90,7 +90,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-brand-dark text-base hover:underline"
+                    className="text-brand-dark text-sm md:text-base hover:underline"
                   >
                     ZK Stack
                   </a>
@@ -98,7 +98,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-brand-dark text-base hover:underline"
+                    className="text-brand-dark text-sm md:text-base hover:underline"
                   >
                     ZKsync Connect
                   </a>
@@ -106,7 +106,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-brand-dark text-base hover:underline"
+                    className="text-brand-dark text-sm md:text-base hover:underline"
                   >
                     Airbender
                   </a>
@@ -114,7 +114,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-brand-dark text-base hover:underline inline-flex items-center gap-1"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
                   >
                     solx{" "}
                     <svg
@@ -135,14 +135,14 @@ export default function Footer() {
             </div>
 
             <div>
-              <h3 className="text-brand-dark text-sm font-semibold uppercase mb-6">
+              <h3 className="text-brand-dark text-xs md:text-sm font-semibold uppercase mb-4 md:mb-6">
                 Developers
               </h3>
-              <ul className="space-y-4">
+              <ul className="space-y-2 md:space-y-4">
                 <li>
                   <a
                     href="#"
-                    className="text-brand-dark text-base hover:underline inline-flex items-center gap-1"
+                    className="text-brand-dark text-sm md:text-base hover:underline inline-flex items-center gap-1"
                   >
                     ZKsync Prividium Docs{" "}
                     <svg
