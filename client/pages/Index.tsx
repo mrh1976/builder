@@ -155,7 +155,7 @@ export default function Index() {
       </section>
 
       {/* Story Section - Sticky Scroll Narrative */}
-      <section className="py-12">
+      <section className="py-12 md:py-20">
         <ScrollNarrativeSticky
           steps={[
             {
