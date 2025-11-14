@@ -12,12 +12,13 @@ export default function ScrollReveal({ children, className = "", delay = 0 }: Sc
     threshold: 0.1,
     triggerOnce: true,
   });
-  
+
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     if (inView) {
-      setTimeout(() => setIsVisible(true), delay);
+      const timer = setTimeout(() => setIsVisible(true), delay);
+      return () => clearTimeout(timer);
     }
   }, [inView, delay]);
 
