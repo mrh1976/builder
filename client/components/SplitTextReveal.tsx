@@ -24,14 +24,17 @@ export default function SplitTextReveal({
     if (!inView) return;
 
     let wordIndex = 0;
-    const timer = setInterval(() => {
-      if (wordIndex < words.length) {
-        setVisibleWords(wordIndex + 1);
-        wordIndex++;
-      } else {
-        clearInterval(timer);
-      }
-    }, 50 + delay / words.length);
+    const timer = setInterval(
+      () => {
+        if (wordIndex < words.length) {
+          setVisibleWords(wordIndex + 1);
+          wordIndex++;
+        } else {
+          clearInterval(timer);
+        }
+      },
+      50 + delay / words.length,
+    );
 
     return () => clearInterval(timer);
   }, [inView, words.length, delay]);
