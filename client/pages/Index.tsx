@@ -178,7 +178,7 @@ export default function Index() {
             },
             {
               text: "No more sacrificing on privacy, compliance, or trust.",
-              lineClass: "",
+              lineClass: "no-fade",
             },
           ]}
         />
