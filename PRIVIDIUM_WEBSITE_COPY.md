@@ -191,7 +191,7 @@ Prividium enables new use cases
 
 **Description:** Move value across jurisdictions in seconds — with programmable compliance baked in. Each transaction executes privately within your governance framework, while zero-knowledge proofs ensure global verification and regulatory confidence. Outcome: faster settlements, reduced FX risk, and a transparent audit trail that satisfies both regulators and counterparties.
 
-**CTA Link:** Learn how Prividium keeps data private ➔
+**CTA Link:** Explore compliant cross-border payments ➔
 
 ---
 
@@ -203,7 +203,7 @@ Prividium enables new use cases
 
 **Description:** Tokenize funds, securities, or structured products under your control, without disclosing sensitive data. Prividium enables full asset lifecycle management, from issuance and transfer to redemption and reporting, all verifiable on Ethereum. Outcome: instant distribution, automated compliance, and complete visibility for auditors and investors — without public exposure.
 
-**CTA Link:** Learn how Prividium keeps data private ➔
+**CTA Link:** See how assets stay compliant ➔
 
 ---
 
@@ -215,7 +215,7 @@ Prividium enables new use cases
 
 **Description:** Operate in private, compliant trading environments where participants are verified, rules are enforced by code, and trades are provable without revealing identities. Prividium's programmable privacy allows selective disclosure to regulators or partners, preserving confidentiality where it matters most. Outcome: compliant market infrastructure ready for digital securities, carbon credits, or interbank trading.
 
-**CTA Link:** Learn how Prividium keeps data private ➔
+**CTA Link:** Build compliant market infrastructure ➔
 
 ---
 
@@ -227,7 +227,7 @@ Prividium enables new use cases
 
 **Description:** Enable instant, risk-free exchange of tokenized assets between institutions, without intermediaries or reconciliation delays. Zero-knowledge proofs validate every trade while preserving counterparty confidentiality. Outcome: near real-time settlement, improved liquidity management, and full operational integrity.
 
-**CTA Link:** Learn how Prividium keeps data private ➔
+**CTA Link:** Enable instant cross-chain settlement ➔
 
 ---
 
@@ -239,7 +239,7 @@ Prividium enables new use cases
 
 **Description:** Automate intraday repo, margin management, and secured funding on private rails that settle with public finality. Each transaction remains confidential but provably correct, reducing friction and freeing working capital. Outcome: increased liquidity efficiency, minimized settlement risk, and transparent auditability.
 
-**CTA Link:** Learn how Prividium keeps data private ➔
+**CTA Link:** Automate intraday liquidity management ➔
 
 ---
 
