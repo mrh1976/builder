@@ -4,7 +4,7 @@
 
 .scrollStep {
   position: relative;
-  height: 220vh;
+  height: 150vh;
   padding: 0 4vw;
 }
 
@@ -33,9 +33,9 @@
   color: #070ea0;
   transform: translateY(30px) scale(0.95);
   transition:
-    opacity 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
-    transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
-    filter 0.15s ease-out;
+    opacity 0.15s cubic-bezier(0.34, 1.56, 0.64, 1),
+    transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+    filter 0.1s ease-out;
   margin: 0;
   padding: 0;
   font-family:
