@@ -20,31 +20,31 @@ export default function Index() {
       {/* Hero Section */}
       <section className="relative pt-[72px] overflow-visible">
         <div className="absolute inset-0 bg-gradient-to-b from-[#E8F4FF] via-[#F0F8FF] to-white" />
-        <div className="relative z-10 max-w-[1280px] mx-auto px-8 flex items-center py-20 min-h-[600px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full items-center">
+        <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-8 flex items-center py-12 md:py-20 min-h-screen md:min-h-[600px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 w-full items-center">
             {/* Left side - Copy */}
             <div className="flex flex-col space-y-6">
               <div>
-                <p className="text-brand-blue text-base font-semibold mb-3">
+                <p className="text-brand-blue text-sm md:text-base font-semibold mb-3">
                   ZKsync Prividium
                 </p>
-                <h1 className="text-5xl lg:text-6xl font-bold text-black leading-tight mb-4">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black leading-tight mb-4">
                   Execute Privately,
                   <br />
                   Verify Publicly
                 </h1>
-                <p className="text-lg text-black max-w-xl">
+                <p className="text-base md:text-lg text-black max-w-xl">
                   Where public and private blockchains converge.
                 </p>
               </div>
 
-              <p className="text-base text-brand-dark-text leading-7 max-w-xl">
+              <p className="text-sm md:text-base text-brand-dark-text leading-7 max-w-xl">
                 Operate with full privacy, compliance, and control — all while
                 inheriting Ethereum's security and connectivity.
               </p>
 
-              <div className="flex flex-wrap gap-4 pt-4">
-                <button className="relative flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-brand-blue text-white font-semibold text-base overflow-hidden hover:bg-brand-blue/90 transition-colors shadow-lg">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-3 md:gap-4 pt-4">
+                <button className="relative flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-brand-blue text-white font-semibold text-sm md:text-base overflow-hidden hover:bg-brand-blue/90 transition-colors shadow-lg">
                   <span>Download case study</span>
                   <svg
                     width="20"
@@ -62,7 +62,7 @@ export default function Index() {
                     />
                   </svg>
                 </button>
-                <button className="px-6 py-3 rounded-full bg-white text-black font-semibold text-base border border-gray-300 hover:bg-gray-50 transition-colors">
+                <button className="px-6 py-3 rounded-full bg-white text-black font-semibold text-sm md:text-base border border-gray-300 hover:bg-gray-50 transition-colors">
                   Talk to our team
                 </button>
               </div>
