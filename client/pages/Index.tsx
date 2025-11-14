@@ -624,7 +624,7 @@ export default function Index() {
       </section>
 
       {/* FAQ Section */}
-      <section className="relative py-24 px-8 overflow-hidden">
+      <section className="relative py-16 md:py-24 px-4 md:px-8 overflow-hidden">
         <svg
           className="absolute right-0 top-0 w-[2113px] h-[1403px] opacity-50"
           viewBox="0 0 1501 1403"
@@ -652,10 +652,10 @@ export default function Index() {
 
         <div className="relative z-10 max-w-[1280px] mx-auto text-center">
           <ScrollReveal>
-            <h2 className="text-4xl font-semibold text-brand-dark-text mb-3 tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-semibold text-brand-dark-text mb-3 tracking-tight">
               Frequently asked questions
             </h2>
-            <p className="text-sm text-black mb-12">
+            <p className="text-sm md:text-base text-black mb-8 md:mb-12">
               Everything you need to know about Prividium.
             </p>
             <img
