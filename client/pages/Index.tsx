@@ -149,7 +149,7 @@ export default function Index() {
 
           <ScrollNarrative
             animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
           >
             automation, transparency, and programmability that can transform how
             finance moves.
@@ -157,7 +157,7 @@ export default function Index() {
 
           <ScrollNarrative
             animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
           >
             But the very things that make blockchain open and powerful also make
             it impractical for enterprise use.
@@ -165,7 +165,7 @@ export default function Index() {
 
           <ScrollNarrative
             animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
           >
             Public chains expose sensitive data. Private chains isolate systems
             and lose network trust.
@@ -173,18 +173,18 @@ export default function Index() {
 
           <ScrollNarrative
             animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
           >
             The tradeoff between innovation and control has stalled progress.
           </ScrollNarrative>
 
-          <HighlightedNarrativeLine className="w-full text-[56px] font-semibold leading-[72px] text-center bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent">
+          <HighlightedNarrativeLine className="w-full text-[56px] font-semibold leading-[72px] text-center text-brand-blue">
             Prividium removes that tradeoff.
           </HighlightedNarrativeLine>
 
           <ScrollNarrative
             animateGradient
-            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto bg-gradient-to-b from-brand-blue via-brand-blue to-brand-blue-gradient-end bg-clip-text text-transparent"
+            className="w-full text-[56px] font-semibold leading-[72px] text-center max-w-[1280px] mx-auto text-brand-blue"
           >
             It's how institutions modernize their infrastructure. No more
             sacrificing on privacy, compliance, or trust.
