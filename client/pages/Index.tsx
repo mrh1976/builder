@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
+import Lottie from "lottie-react";
+import heroAnimation from "../../public/hero-animation.json";
 
 export default function Index() {
   return (
@@ -8,17 +10,14 @@ export default function Index() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-[72px] h-[800px] overflow-hidden">
-        <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/727a25e71fb8e7ff7b4213875eeac0211bfa3a5b?width=3840"
-          alt="Hero background"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="relative z-10 max-w-[1280px] mx-auto px-8 pt-32">
-          <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/7dae0393bfd3f94077e3573f9467be180a1e8c3d?width=2557"
-            alt="Hero illustration"
-            className="w-full max-w-[1278px] h-auto mx-auto"
+      <section className="relative pt-[72px] h-[800px] overflow-hidden bg-white">
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-white" />
+        <div className="relative z-10 max-w-[1280px] mx-auto px-8 pt-32 h-full flex items-center justify-center">
+          <Lottie
+            animationData={heroAnimation}
+            loop={true}
+            autoplay={true}
+            style={{ width: '100%', maxWidth: '600px', height: 'auto' }}
           />
         </div>
       </section>
@@ -26,8 +25,8 @@ export default function Index() {
       {/* Select Observers Section - Reduced spacing */}
       <section className="bg-white -mt-20 relative z-20 px-8 pb-16">
         <div className="max-w-[1280px] mx-auto">
-          <div className="bg-brand-gray rounded-[20px] p-[60px] flex flex-col items-center gap-10">
-            <p className="text-brand-blue text-base">Select Observers</p>
+          <div className="bg-brand-gray rounded-[20px] p-[60px] flex flex-col items-start gap-10">
+            <p className="text-brand-blue text-base font-semibold">Select Observers</p>
             <div className="w-full flex flex-col gap-20">
               <div className="flex justify-between items-center flex-wrap gap-8">
                 <img
