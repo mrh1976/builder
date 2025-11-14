@@ -176,6 +176,7 @@ export default function Index() {
               text: (
                 <>
                   This is how institutions modernize their infrastructure.
+                  <br />
                   <br /> No more sacrificing on privacy, compliance, or trust.
                 </>
               ),
