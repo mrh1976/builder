@@ -647,12 +647,53 @@ export default function Index() {
                 compliant, and anchor to Ethereum for unmatched security.
               </p>
             </div>
-            <div className="flex-1">
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/4e984f2c258652f944b0708ee705ee5d6e770307?width=1000"
-                alt="Contact form"
-                className="w-full h-auto"
-              />
+            <div className="flex-1 bg-white rounded-xl p-8 shadow-sm">
+              <form className="space-y-4">
+                <div>
+                  <input
+                    type="text"
+                    placeholder="First and last name"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-blue text-sm placeholder:text-gray-400"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    placeholder="E-mail"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-blue text-sm placeholder:text-gray-400"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Company"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-blue text-sm placeholder:text-gray-400"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Title (Optional)"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-blue text-sm placeholder:text-gray-400"
+                  />
+                </div>
+                <div className="pt-2">
+                  <button
+                    type="submit"
+                    className="w-full bg-brand-blue text-white font-semibold py-3 px-4 rounded-full hover:bg-brand-blue/90 transition-colors"
+                  >
+                    Submit
+                  </button>
+                </div>
+                <p className="text-xs text-gray-600 text-center">
+                  By submitting this form you agree with the{" "}
+                  <a href="#" className="underline hover:text-brand-blue">
+                    Privacy Policy
+                  </a>
+                </p>
+              </form>
             </div>
           </ScrollReveal>
         </div>
