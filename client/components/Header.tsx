@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Header() {
+  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/30 backdrop-blur-sm">
-      <div className="max-w-[1920px] mx-auto h-[72px] px-8 flex items-center justify-between">
-        <Link to="/" className="flex items-center justify-center w-[130px] h-8">
+      <div className="max-w-[1280px] mx-auto h-[72px] px-8 flex items-center justify-between">
+        {/* Logo */}
+        <Link to="/" className="flex items-center justify-center w-[130px] h-8 flex-shrink-0">
           <svg
             width="130"
             height="32"
@@ -67,60 +71,38 @@ export default function Header() {
           </svg>
         </Link>
 
-        <nav className="flex items-center gap-0.5">
-          {["Network", "Products", "Developers", "Discover"].map((item) => (
+        {/* Navigation */}
+        <nav className="flex items-center gap-0.5 flex-1 justify-center">
+          {['Network', 'Products', 'Developers', 'Discover'].map((item) => (
             <button
               key={item}
-              className="flex items-center justify-center gap-1.5 h-[72px] px-3 text-[#262B33] text-base font-medium hover:bg-black/5 transition-colors"
+              onMouseEnter={() => setHoveredItem(item)}
+              onMouseLeave={() => setHoveredItem(null)}
+              className="flex items-center justify-center gap-1.5 h-[72px] px-3 text-[#262B33] text-base font-medium transition-colors"
+              style={{
+                backgroundColor: hoveredItem === item ? 'rgba(0, 0, 0, 0.05)' : 'transparent'
+              }}
             >
               <span>{item}</span>
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4 6L8 10L12 6"
-                  stroke="#181D27"
-                  strokeWidth="1.75"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6L8 10L12 6" stroke="#181D27" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
           ))}
         </nav>
 
+        {/* Contact Button */}
         <a
           href="#contact"
-          className="relative flex items-center justify-center w-32 h-12 rounded-full bg-brand-blue text-white text-base font-semibold overflow-hidden shadow-[0_0_0_1px_rgba(10,13,18,0.18)_inset,0_-2px_0_0_rgba(10,13,18,0.05)_inset,0_1px_2px_0_rgba(10,13,18,0.05)] hover:bg-brand-blue/90 transition-colors"
+          className="relative flex items-center justify-center w-32 h-12 rounded-full bg-brand-blue text-white text-base font-semibold overflow-hidden shadow-[0_0_0_1px_rgba(10,13,18,0.18)_inset,0_-2px_0_0_rgba(10,13,18,0.05)_inset,0_1px_2px_0_rgba(10,13,18,0.05)] hover:bg-brand-blue/90 transition-all duration-200 flex-shrink-0"
         >
           <div className="absolute left-0 bottom-0 w-8 h-8">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_1_711)">
-                <path
-                  opacity="0.5"
-                  d="M0 0V32H32L0 0Z"
-                  fill="url(#paint0_linear_1_711)"
-                />
+                <path opacity="0.5" d="M0 0V32H32L0 0Z" fill="url(#paint0_linear_1_711)" />
               </g>
               <defs>
-                <linearGradient
-                  id="paint0_linear_1_711"
-                  x1="16"
-                  y1="0"
-                  x2="16"
-                  y2="32"
-                  gradientUnits="userSpaceOnUse"
-                >
+                <linearGradient id="paint0_linear_1_711" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
                   <stop stopColor="#5C6CEC" />
                   <stop offset="1" stopColor="#5C6CEC" stopOpacity="0" />
                 </linearGradient>
@@ -131,29 +113,12 @@ export default function Header() {
             </svg>
           </div>
           <div className="absolute right-0 top-0 w-14 h-14">
-            <svg
-              width="56"
-              height="56"
-              viewBox="0 0 56 56"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_1_715)">
-                <path
-                  opacity="0.5"
-                  d="M56 56V0H0L56 56Z"
-                  fill="url(#paint0_linear_1_715)"
-                />
+                <path opacity="0.5" d="M56 56V0H0L56 56Z" fill="url(#paint0_linear_1_715)" />
               </g>
               <defs>
-                <linearGradient
-                  id="paint0_linear_1_715"
-                  x1="28"
-                  y1="56"
-                  x2="28"
-                  y2="0"
-                  gradientUnits="userSpaceOnUse"
-                >
+                <linearGradient id="paint0_linear_1_715" x1="28" y1="56" x2="28" y2="0" gradientUnits="userSpaceOnUse">
                   <stop stopColor="#5C6CEC" />
                   <stop offset="1" stopColor="#5C6CEC" stopOpacity="0" />
                 </linearGradient>
