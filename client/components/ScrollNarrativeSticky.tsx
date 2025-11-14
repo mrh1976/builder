@@ -48,13 +48,14 @@ export default function ScrollNarrativeSticky({
     const handleScroll = () => {
       if (!scaleLineRef.current) return;
 
-      const rect = scaleLineRef.current.parentElement?.parentElement?.getBoundingClientRect();
+      const rect =
+        scaleLineRef.current.parentElement?.parentElement?.getBoundingClientRect();
       if (!rect) return;
 
       const winH = window.innerHeight;
 
       if (rect.top > winH || rect.bottom < 0) {
-        scaleLineRef.current.style.setProperty('--scale', '1', 'important');
+        scaleLineRef.current.style.setProperty("--scale", "1", "important");
         return;
       }
 
@@ -70,7 +71,11 @@ export default function ScrollNarrativeSticky({
       const maxScale = 1.5;
       const scale = minScale + (maxScale - minScale) * progress;
 
-      scaleLineRef.current.style.setProperty('--scale', scale.toString(), 'important');
+      scaleLineRef.current.style.setProperty(
+        "--scale",
+        scale.toString(),
+        "important",
+      );
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
