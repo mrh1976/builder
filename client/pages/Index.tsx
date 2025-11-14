@@ -180,43 +180,43 @@ export default function Index() {
           </div>
 
           <ScrollNarrativeSticky
-          steps={[
-            {
-              text: "Institutions see the potential of blockchain.",
-              lineClass: "",
-            },
-            {
-              text: "But the very things that make blockchain open and powerful also make it impractical for enterprise use.",
-              lineClass: "",
-            },
-            {
-              text: (
-                <>
-                  Public chains expose sensitive data. <br /> Private chains
-                  isolate systems and lose network trust.
-                </>
-              ),
-              lineClass: "",
-            },
-            {
-              text: "The tradeoff between innovation and control has stalled progress.",
-              lineClass: "",
-            },
-            {
-              text: "With Prividium, there are no tradeoffs.",
-              isHero: true,
-              lineClass: "line-6",
-            },
-            {
-              text: "This is how institutions modernize their infrastructure.",
-              lineClass: "",
-            },
-            {
-              text: "No more sacrificing on privacy, compliance, or trust.",
-              lineClass: "no-fade",
-            },
-          ]}
-        />
+            steps={[
+              {
+                text: "Institutions see the potential of blockchain.",
+                lineClass: "",
+              },
+              {
+                text: "But the very things that make blockchain open and powerful also make it impractical for enterprise use.",
+                lineClass: "",
+              },
+              {
+                text: (
+                  <>
+                    Public chains expose sensitive data. <br /> Private chains
+                    isolate systems and lose network trust.
+                  </>
+                ),
+                lineClass: "",
+              },
+              {
+                text: "The tradeoff between innovation and control has stalled progress.",
+                lineClass: "",
+              },
+              {
+                text: "With Prividium, there are no tradeoffs.",
+                isHero: true,
+                lineClass: "line-6",
+              },
+              {
+                text: "This is how institutions modernize their infrastructure.",
+                lineClass: "",
+              },
+              {
+                text: "No more sacrificing on privacy, compliance, or trust.",
+                lineClass: "no-fade",
+              },
+            ]}
+          />
         </div>
       </section>
 
