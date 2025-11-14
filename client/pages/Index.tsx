@@ -159,8 +159,8 @@ export default function Index() {
         {/* Sticky Scroll Indicator Arrow */}
         <div className="fixed right-8 top-1/2 transform -translate-y-1/2 z-40 pointer-events-none animate-bounce">
           <svg
-            width="24"
-            height="24"
+            width="48"
+            height="48"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +169,7 @@ export default function Index() {
             <path
               d="M12 5V19M12 19L18 13M12 19L6 13"
               stroke="currentColor"
-              strokeWidth="2"
+              strokeWidth="3"
               strokeLinecap="round"
               strokeLinejoin="round"
             />
