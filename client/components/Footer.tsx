@@ -73,12 +73,12 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className="flex gap-20 flex-1">
+          <div className="flex gap-8 md:gap-20 flex-1 flex-wrap">
             <div>
-              <h3 className="text-brand-dark text-sm font-semibold uppercase mb-6">
+              <h3 className="text-brand-dark text-xs md:text-sm font-semibold uppercase mb-4 md:mb-6">
                 Products
               </h3>
-              <ul className="space-y-4">
+              <ul className="space-y-2 md:space-y-4">
                 <li>
                   <a
                     href="#"
