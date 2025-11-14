@@ -670,7 +670,7 @@ export default function Index() {
       {/* Contact Section */}
       <section
         id="contact"
-        className="relative bg-brand-gray py-24 px-8 overflow-hidden"
+        className="relative bg-brand-gray py-16 md:py-24 px-4 md:px-8 overflow-hidden"
       >
         <svg
           className="absolute left-0 bottom-0 w-[625px] h-[761px] opacity-50"
@@ -698,7 +698,7 @@ export default function Index() {
         </svg>
 
         <div className="relative z-10 max-w-[1280px] mx-auto">
-          <ScrollReveal className="rounded-lg overflow-hidden mb-12">
+          <ScrollReveal className="rounded-lg overflow-hidden mb-8 md:mb-12">
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/9d6a5954c2b9bf6bbd17c43b13bb9416ca8d81e4?width=2560"
               alt="Contact section background"
@@ -708,18 +708,18 @@ export default function Index() {
 
           <ScrollReveal
             delay={200}
-            className="flex gap-16 items-stretch flex-col lg:flex-row"
+            className="flex gap-6 md:gap-8 lg:gap-16 items-stretch flex-col lg:flex-row"
           >
             <div className="w-full lg:w-1/3 space-y-4 flex flex-col justify-center">
-              <h2 className="text-4xl font-semibold text-brand-dark leading-[52px]">
+              <h2 className="text-3xl md:text-4xl font-semibold text-brand-dark leading-tight md:leading-[52px]">
                 Talk to an expert
               </h2>
-              <p className="text-base text-brand-dark-text leading-7">
+              <p className="text-sm md:text-base text-brand-dark-text leading-7">
                 Deploy Prividium with confidence. Keep data private, stay
                 compliant, and anchor to Ethereum for unmatched security.
               </p>
             </div>
-            <div className="w-full lg:w-2/3 bg-white rounded-2xl p-10 shadow-lg border border-gray-100">
+            <div className="w-full lg:w-2/3 bg-white rounded-xl md:rounded-2xl p-6 md:p-10 shadow-lg border border-gray-100">
               <form className="space-y-4">
                 <div>
                   <input
@@ -754,7 +754,7 @@ export default function Index() {
                 <div className="pt-2">
                   <button
                     type="submit"
-                    className="w-full bg-brand-blue text-white font-semibold py-3 px-4 rounded-full hover:bg-brand-blue/90 transition-colors"
+                    className="w-full bg-brand-blue text-white font-semibold py-3 px-4 rounded-full hover:bg-brand-blue/90 transition-colors text-sm md:text-base"
                   >
                     Submit
                   </button>
