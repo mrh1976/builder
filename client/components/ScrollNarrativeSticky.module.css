@@ -34,6 +34,8 @@
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   filter: blur(8px);
   backdrop-filter: blur(8px);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .line:first-of-type {
