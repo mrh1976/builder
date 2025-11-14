@@ -10,8 +10,8 @@ export default function Index() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-[72px] min-h-[800px] overflow-hidden bg-white">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-white" />
+      <section className="relative pt-[72px] min-h-[800px] overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-[#E8F4FF] via-[#F0F8FF] to-white" />
         <div className="relative z-10 max-w-[1280px] mx-auto px-8 h-full flex items-center py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full items-center">
             {/* Left side - Copy */}
