@@ -71,10 +71,12 @@
 
 .no-fade {
   opacity: 1 !important;
+  filter: blur(0px) !important;
 }
 
 .scrollStep:not(.active) .no-fade {
   opacity: 1 !important;
+  filter: blur(0px) !important;
 }
 
 .scrollStepPin {
