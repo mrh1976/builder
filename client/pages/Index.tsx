@@ -353,7 +353,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F5031849ff5814a4cae6f958ac9f10229%2F77a27fc3592d45b888d338d927a5f575?format=webp&width=192"
                   alt="Business Impact icon"
-                  className="w-auto h-24"
+                  className="w-auto h-20"
                 />
                 <div className="space-y-3">
                   <h3 className="text-2xl font-semibold text-black leading-8">
