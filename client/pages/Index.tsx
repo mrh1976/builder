@@ -57,8 +57,8 @@ export default function Index() {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row flex-wrap gap-1 sm:gap-3 md:gap-4 pt-0 sm:pt-4 w-full">
-                <button className="relative flex items-center justify-center gap-2 px-6 py-2.5 sm:py-3 rounded-full bg-brand-blue text-white font-semibold text-sm md:text-base overflow-hidden hover:bg-brand-blue/90 transition-colors shadow-lg sm:w-auto w-full">
+              <div className="flex flex-col gap-2 sm:gap-3 md:gap-4 w-full pt-2">
+                <button className="relative flex items-center justify-center gap-2 px-6 py-2.5 sm:py-3 rounded-full bg-brand-blue text-white font-semibold text-sm md:text-base overflow-hidden hover:bg-brand-blue/90 transition-colors shadow-lg w-full">
                   <span>Download case study</span>
                   <svg
                     width="20"
@@ -76,7 +76,7 @@ export default function Index() {
                     />
                   </svg>
                 </button>
-                <button className="px-6 py-2.5 sm:py-3 rounded-full bg-white text-black font-semibold text-sm md:text-base border border-gray-300 hover:bg-gray-50 transition-colors sm:w-auto w-full">
+                <button className="px-6 py-2.5 sm:py-3 rounded-full bg-white text-black font-semibold text-sm md:text-base border border-gray-300 hover:bg-gray-50 transition-colors w-full">
                   Talk to our team
                 </button>
               </div>
