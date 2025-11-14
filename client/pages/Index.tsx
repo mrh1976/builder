@@ -194,6 +194,28 @@ export default function Index() {
             },
           ]}
         />
+
+        {/* Scroll Indicator Arrow */}
+        <div className="flex justify-center pb-8 md:pb-12 mt-8">
+          <div className="animate-bounce">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="text-brand-blue"
+            >
+              <path
+                d="M12 5V19M12 19L18 13M12 19L6 13"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
       </section>
 
       {/* Features Section */}
