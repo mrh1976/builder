@@ -10,15 +10,66 @@ export default function Index() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-[72px] h-[800px] overflow-hidden bg-white">
+      <section className="relative pt-[72px] min-h-[800px] overflow-hidden bg-white">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-white" />
-        <div className="relative z-10 max-w-[1280px] mx-auto px-8 pt-32 h-full flex items-center justify-center">
-          <Lottie
-            animationData={heroAnimation}
-            loop={true}
-            autoplay={true}
-            style={{ width: "100%", maxWidth: "600px", height: "auto" }}
-          />
+        <div className="relative z-10 max-w-[1280px] mx-auto px-8 h-full flex items-center py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full items-center">
+            {/* Left side - Copy */}
+            <div className="flex flex-col space-y-6">
+              <div>
+                <p className="text-brand-blue text-base font-semibold mb-3">
+                  ZKsync Prividium
+                </p>
+                <h1 className="text-5xl lg:text-6xl font-bold text-black leading-tight mb-4">
+                  Execute Privately,
+                  <br />
+                  Verify Publicly
+                </h1>
+                <p className="text-lg text-black max-w-xl">
+                  Where public and private blockchains converge.
+                </p>
+              </div>
+
+              <p className="text-base text-brand-dark-text leading-7 max-w-xl">
+                Operate with full privacy, compliance, and control — all while
+                inheriting Ethereum's security and connectivity.
+              </p>
+
+              <div className="flex flex-wrap gap-4 pt-4">
+                <button className="relative flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-brand-blue text-white font-semibold text-base overflow-hidden hover:bg-brand-blue/90 transition-colors shadow-lg">
+                  <span>Download case study</span>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.75 14.5L15.25 8M15.25 8H9.75M15.25 8V13.5"
+                      stroke="white"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </button>
+                <button className="px-6 py-3 rounded-full bg-white text-black font-semibold text-base border border-gray-300 hover:bg-gray-50 transition-colors">
+                  Talk to our team
+                </button>
+              </div>
+            </div>
+
+            {/* Right side - Animation */}
+            <div className="flex items-center justify-center lg:justify-end">
+              <Lottie
+                animationData={heroAnimation}
+                loop={true}
+                autoplay={true}
+                style={{ width: "100%", maxWidth: "500px", height: "auto" }}
+              />
+            </div>
+          </div>
         </div>
       </section>
 
