@@ -73,4 +73,5 @@
 
 .scrollStepPin {
   position: relative;
+  height: 280vh !important;
 }
