@@ -173,13 +173,11 @@ export default function Index() {
               lineClass: "line-6",
             },
             {
-              text: (
-                <>
-                  This is how institutions modernize their infrastructure.
-                  <br />
-                  <br /> No more sacrificing on privacy, compliance, or trust.
-                </>
-              ),
+              text: "This is how institutions modernize their infrastructure.",
+              lineClass: "",
+            },
+            {
+              text: "No more sacrificing on privacy, compliance, or trust.",
               lineClass: "",
             },
           ]}
