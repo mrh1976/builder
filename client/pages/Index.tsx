@@ -5,6 +5,13 @@ import SplitTextReveal from "@/components/SplitTextReveal";
 import { useEffect } from "react";
 
 export default function Index() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js";
+    script.type = "module";
+    document.head.appendChild(script);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
