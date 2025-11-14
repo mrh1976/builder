@@ -3,6 +3,7 @@ import { useState } from "react";
 
 export default function Header() {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/30 backdrop-blur-sm">
