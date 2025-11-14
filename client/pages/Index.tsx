@@ -491,7 +491,7 @@ export default function Index() {
                   href="#"
                   className="text-brand-blue-dark text-sm font-semibold underline inline-block"
                 >
-                  Learn how Prividium keeps data private ➔
+                  Explore compliant cross-border payments ➔
                 </a>
               </div>
             </ScrollReveal>
@@ -520,7 +520,7 @@ export default function Index() {
                   href="#"
                   className="text-brand-blue-dark text-sm font-semibold underline inline-block"
                 >
-                  Learn how Prividium keeps data private ➔
+                  See how assets stay compliant ➔
                 </a>
               </div>
               <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[300px] md:min-h-[400px]">
@@ -564,7 +564,7 @@ export default function Index() {
                   href="#"
                   className="text-brand-blue-dark text-sm font-semibold underline inline-block"
                 >
-                  Learn how Prividium keeps data private ➔
+                  Build compliant market infrastructure ➔
                 </a>
               </div>
             </ScrollReveal>
@@ -592,7 +592,7 @@ export default function Index() {
                   href="#"
                   className="text-brand-blue-dark text-sm font-semibold underline inline-block"
                 >
-                  Learn how Prividium keeps data private ➔
+                  Enable instant cross-chain settlement ➔
                 </a>
               </div>
               <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#BFEAFF] to-[#A5C0EE] rounded-lg overflow-hidden flex items-center justify-center min-h-[300px] md:min-h-[400px]">
@@ -634,7 +634,7 @@ export default function Index() {
                   href="#"
                   className="text-brand-blue-dark text-sm font-semibold underline inline-block"
                 >
-                  Learn how Prividium keeps data private ➔
+                  Automate intraday liquidity management ➔
                 </a>
               </div>
             </ScrollReveal>
