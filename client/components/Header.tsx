@@ -110,9 +110,10 @@ export default function Header() {
         {/* Contact Button */}
         <a
           href="#contact"
-          className="relative flex items-center justify-center w-32 h-12 rounded-full bg-brand-blue text-white text-base font-semibold overflow-hidden shadow-[0_0_0_1px_rgba(10,13,18,0.18)_inset,0_-2px_0_0_rgba(10,13,18,0.05)_inset,0_1px_2px_0_rgba(10,13,18,0.05)] hover:bg-brand-blue/90 transition-all duration-200 flex-shrink-0"
+          className="relative flex items-center justify-center h-10 md:h-12 px-4 md:w-32 rounded-full bg-brand-blue text-white text-sm md:text-base font-semibold overflow-hidden shadow-[0_0_0_1px_rgba(10,13,18,0.18)_inset,0_-2px_0_0_rgba(10,13,18,0.05)_inset,0_1px_2px_0_rgba(10,13,18,0.05)] hover:bg-brand-blue/90 transition-all duration-200 flex-shrink-0"
         >
-          <div className="absolute left-0 bottom-0 w-8 h-8">
+          {/* Gradient animation - hidden on mobile */}
+          <div className="hidden md:block absolute left-0 bottom-0 w-8 h-8">
             <svg
               width="32"
               height="32"
@@ -145,7 +146,7 @@ export default function Header() {
               </defs>
             </svg>
           </div>
-          <div className="absolute right-0 top-0 w-14 h-14">
+          <div className="hidden md:block absolute right-0 top-0 w-14 h-14">
             <svg
               width="56"
               height="56"
