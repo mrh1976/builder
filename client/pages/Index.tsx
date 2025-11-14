@@ -532,7 +532,7 @@ export default function Index() {
                   KYC-anchored tokenized markets
                 </h3>
                 <p className="text-sm md:text-base text-black leading-6">
-                  Operate private, compliant trading environments where
+                  Operate in private, compliant trading environments where
                   participants are verified, rules are enforced by code, and
                   trades are provable without revealing identities. Prividium's
                   programmable privacy allows selective disclosure to regulators
