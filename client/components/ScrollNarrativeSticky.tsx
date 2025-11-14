@@ -60,8 +60,8 @@ export default function ScrollNarrativeSticky({
         return;
       }
 
-      const start = winH * 0.2;
-      const end = winH * 0.8;
+      const start = winH * 0.15;
+      const end = winH * 0.85;
 
       const centerY = winH / 2;
       const relative = centerY - rect.top;
@@ -69,13 +69,13 @@ export default function ScrollNarrativeSticky({
       progress = Math.min(Math.max(progress, 0), 1);
 
       const minScale = 1;
-      const maxScale = 1.45;
-      const scale = minScale + (maxScale - minScale) * progress;
+      const maxScale = 1.5;
+      const scale = minScale + (maxScale - minScale) * Math.pow(progress, 1.2);
 
       scaleLineRef.current.style.transform = `scale(${scale})`;
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [steps]);
 
