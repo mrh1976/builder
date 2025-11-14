@@ -75,13 +75,13 @@ export default function Header() {
         </Link>
 
         {/* Navigation */}
-        <nav className="flex items-center gap-0.5 flex-1 justify-center">
+        <nav className="hidden md:flex items-center gap-0.5 flex-1 justify-center">
           {["Network", "Products", "Developers", "Discover"].map((item) => (
             <button
               key={item}
               onMouseEnter={() => setHoveredItem(item)}
               onMouseLeave={() => setHoveredItem(null)}
-              className="flex items-center justify-center gap-1.5 h-[72px] px-3 text-[#262B33] text-base font-medium transition-colors"
+              className="flex items-center justify-center gap-1.5 h-[72px] px-3 text-[#262B33] text-sm lg:text-base font-medium transition-colors"
               style={{
                 backgroundColor:
                   hoveredItem === item ? "rgba(0, 0, 0, 0.05)" : "transparent",
