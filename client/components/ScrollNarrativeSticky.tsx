@@ -94,7 +94,9 @@ export default function ScrollNarrativeSticky({
         >
           <div className={styles.stickyInner}>
             <p
-              className={`${styles.line} ${step.lineClass || ""}`}
+              className={`${styles.line} ${
+                step.lineClass ? styles[step.lineClass] : ""
+              }`}
               ref={step.isHero ? scaleLineRef : undefined}
             >
               {step.text}
