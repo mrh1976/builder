@@ -2,8 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import SplitTextReveal from "@/components/SplitTextReveal";
-import Lottie from "lottie-react";
-import heroAnimation from "@/hero-animation.json";
+import { useEffect } from "react";
 
 export default function Index() {
   return (
