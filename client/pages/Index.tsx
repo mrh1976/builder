@@ -348,7 +348,10 @@ export default function Index() {
               </div>
             </ScrollReveal>
 
-            <ScrollReveal delay={1000} className="md:col-span-2 flex justify-center">
+            <ScrollReveal
+              delay={1000}
+              className="md:col-span-2 flex justify-center"
+            >
               <div className="flex flex-col items-center gap-6 text-center max-w-lg">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F5031849ff5814a4cae6f958ac9f10229%2F77a27fc3592d45b888d338d927a5f575?format=webp&width=192"
@@ -357,12 +360,14 @@ export default function Index() {
                 />
                 <div className="space-y-3">
                   <h3 className="text-2xl font-semibold text-black leading-8">
-                    Real Business Impact. Faster, Less Expensive, More Transparent
+                    Real Business Impact. Faster, Less Expensive, More
+                    Transparent
                   </h3>
                   <p className="text-sm text-black leading-6">
-                    Automate settlement and reconciliation. Lower operational cost and
-                    counterparty risk. Provide near-time, provable transparency to auditors
-                    and regulators. All without exposing internal data.
+                    Automate settlement and reconciliation. Lower operational
+                    cost and counterparty risk. Provide near-time, provable
+                    transparency to auditors and regulators. All without
+                    exposing internal data.
                   </p>
                 </div>
               </div>
