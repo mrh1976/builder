@@ -69,6 +69,14 @@
   transform: translateY(0) scale(var(--scale, 1)) !important;
 }
 
+.no-fade {
+  opacity: 1 !important;
+}
+
+.scrollStep:not(.active) .no-fade {
+  opacity: 1 !important;
+}
+
 .scrollStepPin {
   position: relative;
   height: 180vh;
